@@ -83,7 +83,7 @@ sudo python3 cups_detector.py -i br-cups -a 172.20.0.20 -o alerts.csv
 - `cups_attack.py`, `cups_detector.py` - the tools
 - `lab/docker-compose.yml` - the isolated lab
 - `pcap_files/` - captured traffic (normal, attack, variations, mitigations)
-- `evidence/` - logs and detector output
+- `evidence/` - logs, detector output (JSON/CSV) and `screenshots/`
 - `requirements.txt`
 
 The full write-up (environment, experiments, results, mitigations, ethics) is in
