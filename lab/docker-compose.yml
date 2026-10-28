@@ -1,0 +1,37 @@
+# Isolated lab: victim (Vulhub cups-browsed 2.0.1) + legit virtual printer.
+# The Kali host itself is the attacker at 172.20.0.1 (the bridge gateway).
+services:
+  victim:
+    image: vulhub/cups-browsed:2.0.1   # same image as vulhub/cups-browsed/CVE-2024-47177
+    container_name: cups-victim
+    restart: unless-stopped
+    networks:
+      cupslab:
+        ipv4_address: 172.20.0.10
+
+  printer:
+    image: debian:bookworm-slim
+    container_name: legit-printer
+    restart: unless-stopped
+    # Legit print server: real CUPS sharing "Office-Printer" at /printers/Office-Printer,
+    # which forwards jobs to the ippeveprinter software printer on localhost:8631.
+    command: >
+      sh -c "apt-get update -qq && apt-get install -y -qq cups cups-ipp-utils avahi-daemon dbus >/dev/null &&
+             service dbus start && avahi-daemon --no-rlimits -D && sleep 2 &&
+             (ippeveprinter -p 8631 -M HP -m LaserJet -v Office-Printer &) && sleep 2 &&
+             cupsd && sleep 3 &&
+             lpadmin -p Office-Printer -E -v ipp://localhost:8631/ipp/print -m everywhere &&
+             cupsctl --remote-any --share-printers &&
+             echo LAB-PRINTER-READY && tail -f /dev/null"
+    networks:
+      cupslab:
+        ipv4_address: 172.20.0.20
+
+networks:
+  cupslab:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.name: br-cups
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24

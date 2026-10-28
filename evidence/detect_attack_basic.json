@@ -1,0 +1,42 @@
+[
+  {
+    "time": "2026-10-27T18:00:15.359",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/RoguePrinter"
+  },
+  {
+    "time": "2026-10-27T18:00:15.359",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/RoguePrinter"
+  },
+  {
+    "time": "2026-10-27T18:00:15.372",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-27T18:00:15.376",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-27T18:00:15.378",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  }
+]

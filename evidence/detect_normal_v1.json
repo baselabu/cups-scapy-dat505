@@ -1,0 +1,114 @@
+[
+  {
+    "time": "2026-10-27T12:26:52.045",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:39840"
+  },
+  {
+    "time": "2026-10-27T17:47:31.366",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:53482"
+  },
+  {
+    "time": "2026-10-27T17:47:41.655",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48582"
+  },
+  {
+    "time": "2026-10-27T17:47:41.666",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48590"
+  },
+  {
+    "time": "2026-10-27T17:47:41.928",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48602"
+  },
+  {
+    "time": "2026-10-27T17:47:41.929",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48608"
+  },
+  {
+    "time": "2026-10-27T17:47:41.939",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48620"
+  },
+  {
+    "time": "2026-10-27T17:47:42.941",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48624"
+  },
+  {
+    "time": "2026-10-27T17:47:43.943",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48628"
+  },
+  {
+    "time": "2026-10-27T17:47:45.946",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:48642"
+  },
+  {
+    "time": "2026-10-27T17:47:48.950",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:57004"
+  },
+  {
+    "time": "2026-10-27T17:47:53.955",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:57008"
+  },
+  {
+    "time": "2026-10-27T17:48:01.959",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:44932"
+  },
+  {
+    "time": "2026-10-27T17:48:02.964",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "IPP request to non-allowlisted host 172.20.0.10:44936"
+  }
+]

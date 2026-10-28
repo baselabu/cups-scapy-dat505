@@ -1,0 +1,6 @@
+time,severity,rule,src,dst,detail
+2026-10-28T11:54:48.036,MEDIUM,MALFORMED_ADVERT,172.20.0.1,172.20.0.10,non-standard port 8631 | ipp://172.20.0.1:8631/printers/RoguePrinter
+2026-10-28T11:54:48.036,HIGH,UNAUTHORIZED_ADVERT,172.20.0.1,172.20.0.10,sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/RoguePrinter
+2026-10-28T11:54:48.039,HIGH,SUSPICIOUS_IPP,172.20.0.10,172.20.0.1,connection to advertised rogue printer 172.20.0.1:8631
+2026-10-28T11:54:48.046,HIGH,SUSPICIOUS_IPP,172.20.0.10,172.20.0.1,connection to advertised rogue printer 172.20.0.1:8631
+2026-10-28T11:54:48.046,HIGH,SUSPICIOUS_IPP,172.20.0.10,172.20.0.1,connection to advertised rogue printer 172.20.0.1:8631

@@ -1,0 +1,898 @@
+[
+  {
+    "time": "2026-10-28T11:59:57.964",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 9100 | http://172.20.0.1:9100/printers/Finance-Printer"
+  },
+  {
+    "time": "2026-10-28T11:59:57.964",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises http://172.20.0.1:9100/printers/Finance-Printer"
+  },
+  {
+    "time": "2026-10-28T11:59:57.966",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:9100"
+  },
+  {
+    "time": "2026-10-28T11:59:57.971",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:9100"
+  },
+  {
+    "time": "2026-10-28T11:59:57.973",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:9100"
+  },
+  {
+    "time": "2026-10-28T12:00:16.716",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/Office-Printer2"
+  },
+  {
+    "time": "2026-10-28T12:00:16.716",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.20 advertises ipp://172.20.0.1:8631/printers/Office-Printer2"
+  },
+  {
+    "time": "2026-10-28T12:00:16.716",
+    "severity": "MEDIUM",
+    "rule": "REDIRECTED_ADVERT",
+    "src": "172.20.0.20",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.20 points victims to 172.20.0.1"
+  },
+  {
+    "time": "2026-10-28T12:00:16.717",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:00:16.721",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:00:16.723",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.731",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:48.731",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:48.732",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.735",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.739",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.844",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:48.844",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:48.845",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.849",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.851",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.946",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:48.946",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:48.948",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.951",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:48.953",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.056",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.056",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.057",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.065",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.069",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.168",
+    "severity": "MEDIUM",
+    "rule": "ADVERT_FLOOD",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "5 browse packets in 10s from 172.20.0.1"
+  },
+  {
+    "time": "2026-10-28T12:02:49.168",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.168",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.170",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.174",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.178",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.271",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.271",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.274",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.277",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.281",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.372",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.372",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.374",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.376",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.378",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.476",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.476",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.478",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.484",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.488",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.580",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.580",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.581",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.586",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.594",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.682",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.682",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.684",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.687",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.693",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.798",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.798",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.800",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.803",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.806",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.900",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.900",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:49.900",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.903",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:49.905",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.004",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.004",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.005",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.008",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.015",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.128",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.128",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.130",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.132",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.135",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.232",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.232",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.233",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.237",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.240",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.335",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.335",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.339",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.351",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.353",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.436",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.436",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.438",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.444",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.450",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.539",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.539",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.540",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.544",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.547",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.645",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.645",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.647",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.651",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.655",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.755",
+    "severity": "MEDIUM",
+    "rule": "MALFORMED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "non-standard port 8631 | ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.755",
+    "severity": "HIGH",
+    "rule": "UNAUTHORIZED_ADVERT",
+    "src": "172.20.0.1",
+    "dst": "172.20.0.10",
+    "detail": "sender 172.20.0.1 advertises ipp://172.20.0.1:8631/printers/FloodPrinter"
+  },
+  {
+    "time": "2026-10-28T12:02:50.757",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.762",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  },
+  {
+    "time": "2026-10-28T12:02:50.765",
+    "severity": "HIGH",
+    "rule": "SUSPICIOUS_IPP",
+    "src": "172.20.0.10",
+    "dst": "172.20.0.1",
+    "detail": "connection to advertised rogue printer 172.20.0.1:8631"
+  }
+]

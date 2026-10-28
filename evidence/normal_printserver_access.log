@@ -1,0 +1,11 @@
+localhost - - [27/Oct/2026:16:07:21 +0000] "POST /admin/ HTTP/1.1" 401 285 CUPS-Add-Modify-Printer successful-ok
+localhost - root [27/Oct/2026:16:07:21 +0000] "POST /admin/ HTTP/1.1" 200 285 CUPS-Add-Modify-Printer successful-ok
+localhost - - [27/Oct/2026:16:07:21 +0000] "PUT /admin/conf/cupsd.conf HTTP/1.1" 401 0 - -
+localhost - root [27/Oct/2026:16:07:21 +0000] "PUT /admin/conf/cupsd.conf HTTP/1.1" 201 4745 - -
+localhost - - [27/Oct/2026:21:44:28 +0000] "POST /admin/ HTTP/1.1" 401 285 CUPS-Add-Modify-Printer successful-ok
+localhost - root [27/Oct/2026:21:44:28 +0000] "POST /admin/ HTTP/1.1" 200 285 CUPS-Add-Modify-Printer successful-ok
+localhost - - [27/Oct/2026:21:44:28 +0000] "PUT /admin/conf/cupsd.conf HTTP/1.1" 401 0 - -
+localhost - root [27/Oct/2026:21:44:28 +0000] "PUT /admin/conf/cupsd.conf HTTP/1.1" 201 4649 - -
+172.20.0.10 - - [27/Oct/2026:21:47:41 +0000] "POST /printers/Office-Printer HTTP/1.1" 200 558 Validate-Job successful-ok
+172.20.0.10 - - [27/Oct/2026:21:47:41 +0000] "POST /printers/Office-Printer HTTP/1.1" 200 514 Create-Job successful-ok
+172.20.0.10 - - [27/Oct/2026:21:47:41 +0000] "POST /printers/Office-Printer HTTP/1.1" 200 173469 Send-Document successful-ok

@@ -1,0 +1,1272 @@
+Starting system message bus: dbus.
+Tue Oct 27 14:33:41 2026 140510132757440 Reading command line option --debug, turning on debug mode (Log on standard error).
+Tue Oct 27 14:33:41 2026 140510132757440 cups-browsed version 2.0.1 starting.
+Tue Oct 27 14:33:41 2026 140510132757440 Reading config: BrowseRemoteProtocols dnssd cups
+Tue Oct 27 14:33:41 2026 140510132757440 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+Tue Oct 27 14:33:41 2026 140510132757440 main() in THREAD 140510132757440
+Tue Oct 27 14:33:41 2026 140510132757440 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+Tue Oct 27 14:33:41 2026 140510132757440 update_netifs() in THREAD 140510132757440
+Tue Oct 27 14:33:41 2026 140510132757440 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.20.0.10, fb3bf062d280, 172.20.0.10*), lo (::1)
+Tue Oct 27 14:33:41 2026 140510132757440 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+Tue Oct 27 14:33:41 2026 140510132757440 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=1
+Tue Oct 27 14:33:41 2026 140510132757440 cups-browsed (): cupsEnumDests
+Tue Oct 27 14:33:41 2026 140510132757440 Could not determine system default printer!
+Tue Oct 27 14:33:41 2026 140510132757440 Using signal handler SIGACTION
+Tue Oct 27 14:33:41 2026 140510132757440 listening
+Tue Oct 27 16:02:38 2026 140510132757440 process_browse_data() in THREAD 140510132757440
+Tue Oct 27 16:02:38 2026 140510132757440 browse packet received from 172.20.0.20
+Tue Oct 27 16:02:38 2026 140510132757440 process_browse_data: location: |Office 2nd floor|
+Tue Oct 27 16:02:38 2026 140510132757440 process_browse_data: info: |HP LaserJet|
+Tue Oct 27 16:02:38 2026 140510132757440 Don't understand URI: ipp://172.20.0.20:631/ipp/print
+Tue Oct 27 16:02:38 2026 140510132757440 listening
+Tue Oct 27 16:26:52 2026 140510132757440 process_browse_data() in THREAD 140510132757440
+Tue Oct 27 16:26:52 2026 140510132757440 browse packet received from 172.20.0.20
+Tue Oct 27 16:26:52 2026 140510132757440 process_browse_data: location: |Office 2nd floor|
+Tue Oct 27 16:26:52 2026 140510132757440 process_browse_data: info: |HP LaserJet|
+Tue Oct 27 16:26:52 2026 140510132757440 CUPS browsing: Remote host: 172.20.0.20; Port: 631; Remote queue name: Office-Printer; Service Name: HP LaserJet @ 172.20.0.20
+Tue Oct 27 16:26:52 2026 140510132757440 Found CUPS queue/class: Office-Printer on host 172.20.0.20.
+Tue Oct 27 16:26:52 2026 140510132757440 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Tue Oct 27 16:26:52 2026 140510132757440 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Tue Oct 27 16:26:52 2026 140510132757440 Matching printer "HP_LaserJet_172_20_0_20" with properties Host = "172.20.0.20", Port = 631, Service Name = "HP LaserJet @ 172.20.0.20", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Tue Oct 27 16:26:52 2026 140510132757440 All BrowseFilter lines matched or skipped, accepting printer HP_LaserJet_172_20_0_20
+Tue Oct 27 16:26:52 2026 140510132757440 update_netifs() in THREAD 140510132757440
+Tue Oct 27 16:26:52 2026 140510132757440 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.20.0.10, fb3bf062d280, 172.20.0.10*), lo (::1)
+Tue Oct 27 16:26:52 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 16:26:52 2026 Full list of all IPP attributes:
+Tue Oct 27 16:26:52 2026   Attr: attributes-charset
+Tue Oct 27 16:26:52 2026   Value: utf-8
+Tue Oct 27 16:26:52 2026   Keyword: utf-8
+Tue Oct 27 16:26:52 2026   Attr: attributes-natural-language
+Tue Oct 27 16:26:52 2026   Value: en-us
+Tue Oct 27 16:26:52 2026   Keyword: en-us
+Tue Oct 27 16:26:52 2026   Attr: marker-change-time
+Tue Oct 27 16:26:52 2026   Value: 0
+Tue Oct 27 16:26:52 2026   Attr: printer-config-change-date-time
+Tue Oct 27 16:26:52 2026   Value: 2026-10-27T16:07:21Z
+Tue Oct 27 16:26:52 2026   Attr: printer-config-change-time
+Tue Oct 27 16:26:52 2026   Value: 1793117241
+Tue Oct 27 16:26:52 2026   Attr: printer-current-time
+Tue Oct 27 16:26:52 2026   Value: 2026-10-27T16:26:52Z
+Tue Oct 27 16:26:52 2026   Attr: printer-dns-sd-name
+Tue Oct 27 16:26:52 2026   Value: Office-Printer @ bdd069b6153a
+Tue Oct 27 16:26:52 2026   Keyword: Office-Printer @ bdd069b6153a
+Tue Oct 27 16:26:52 2026   Attr: printer-icons
+Tue Oct 27 16:26:52 2026   Value: http://172.20.0.20:631/icons/Office-Printer.png
+Tue Oct 27 16:26:52 2026   Keyword: http://172.20.0.20:631/icons/Office-Printer.png
+Tue Oct 27 16:26:52 2026   Attr: printer-is-accepting-jobs
+Tue Oct 27 16:26:52 2026   Value: true
+Tue Oct 27 16:26:52 2026   Attr: printer-is-shared
+Tue Oct 27 16:26:52 2026   Value: true
+Tue Oct 27 16:26:52 2026   Attr: printer-is-temporary
+Tue Oct 27 16:26:52 2026   Value: false
+Tue Oct 27 16:26:52 2026   Attr: printer-more-info
+Tue Oct 27 16:26:52 2026   Value: http://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 16:26:52 2026   Keyword: http://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 16:26:52 2026   Attr: printer-state
+Tue Oct 27 16:26:52 2026   Value: idle
+Tue Oct 27 16:26:52 2026   Attr: printer-state-change-date-time
+Tue Oct 27 16:26:52 2026   Value: 2026-10-27T16:07:21Z
+Tue Oct 27 16:26:52 2026   Attr: printer-state-change-time
+Tue Oct 27 16:26:52 2026   Value: 1793117241
+Tue Oct 27 16:26:52 2026   Attr: printer-state-message
+Tue Oct 27 16:26:52 2026   Value: 
+Tue Oct 27 16:26:52 2026   Keyword: 
+Tue Oct 27 16:26:52 2026   Attr: printer-state-reasons
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: printer-type
+Tue Oct 27 16:26:52 2026   Value: 4100
+Tue Oct 27 16:26:52 2026   Attr: printer-up-time
+Tue Oct 27 16:26:52 2026   Value: 1793118412
+Tue Oct 27 16:26:52 2026   Attr: printer-uri-supported
+Tue Oct 27 16:26:52 2026   Value: ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 16:26:52 2026   Keyword: ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 16:26:52 2026   Attr: queued-job-count
+Tue Oct 27 16:26:52 2026   Value: 0
+Tue Oct 27 16:26:52 2026   Attr: uri-security-supported
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: uri-authentication-supported
+Tue Oct 27 16:26:52 2026   Value: requesting-user-name
+Tue Oct 27 16:26:52 2026   Keyword: requesting-user-name
+Tue Oct 27 16:26:52 2026   Attr: printer-id
+Tue Oct 27 16:26:52 2026   Value: 1
+Tue Oct 27 16:26:52 2026   Attr: printer-name
+Tue Oct 27 16:26:52 2026   Value: Office-Printer
+Tue Oct 27 16:26:52 2026   Keyword: Office-Printer
+Tue Oct 27 16:26:52 2026   Attr: printer-location
+Tue Oct 27 16:26:52 2026   Value: 
+Tue Oct 27 16:26:52 2026   Keyword: 
+Tue Oct 27 16:26:52 2026   Attr: printer-geo-location
+Tue Oct 27 16:26:52 2026   Value: unknown
+Tue Oct 27 16:26:52 2026   Attr: printer-info
+Tue Oct 27 16:26:52 2026   Value: Office-Printer
+Tue Oct 27 16:26:52 2026   Keyword: Office-Printer
+Tue Oct 27 16:26:52 2026   Attr: printer-organization
+Tue Oct 27 16:26:52 2026   Value: 
+Tue Oct 27 16:26:52 2026   Keyword: 
+Tue Oct 27 16:26:52 2026   Attr: printer-organizational-unit
+Tue Oct 27 16:26:52 2026   Value: 
+Tue Oct 27 16:26:52 2026   Keyword: 
+Tue Oct 27 16:26:52 2026   Attr: printer-uuid
+Tue Oct 27 16:26:52 2026   Value: urn:uuid:23c5f7e9-29e4-3883-6cf1-021fea9406fd
+Tue Oct 27 16:26:52 2026   Keyword: urn:uuid:23c5f7e9-29e4-3883-6cf1-021fea9406fd
+Tue Oct 27 16:26:52 2026   Attr: job-quota-period
+Tue Oct 27 16:26:52 2026   Value: 0
+Tue Oct 27 16:26:52 2026   Attr: job-k-limit
+Tue Oct 27 16:26:52 2026   Value: 0
+Tue Oct 27 16:26:52 2026   Attr: job-page-limit
+Tue Oct 27 16:26:52 2026   Value: 0
+Tue Oct 27 16:26:52 2026   Attr: job-sheets-default
+Tue Oct 27 16:26:52 2026   Value: none,none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: device-uri
+Tue Oct 27 16:26:52 2026   Value: ipp://localhost:8631/ipp/print
+Tue Oct 27 16:26:52 2026   Keyword: ipp://localhost:8631/ipp/print
+Tue Oct 27 16:26:52 2026   Attr: document-format-supported
+Tue Oct 27 16:26:52 2026   Value: application/octet-stream,application/pdf,application/postscript,application/vnd.adobe-reader-postscript,application/vnd.cups-pdf,application/vnd.cups-pdf-banner,application/vnd.cups-postscript,application/vnd.cups-raster,application/vnd.cups-raw,application/x-cshell,application/x-csource,application/x-perl,application/x-shell,image/gif,image/jpeg,image/png,image/pwg-raster,image/tiff,image/urf,image/x-bitmap,image/x-photocd,image/x-portable-anymap,image/x-portable-bitmap,image/x-portable-graymap,image/x-portable-pixmap,image/x-sgi-rgb,image/x-sun-raster,image/x-xbitmap,image/x-xpixmap,image/x-xwindowdump,text/css,text/html,text/plain
+Tue Oct 27 16:26:52 2026   Keyword: application/octet-stream
+Tue Oct 27 16:26:52 2026   Keyword: application/pdf
+Tue Oct 27 16:26:52 2026   Keyword: application/postscript
+Tue Oct 27 16:26:52 2026   Keyword: application/vnd.adobe-reader-postscript
+Tue Oct 27 16:26:52 2026   Keyword: application/vnd.cups-pdf
+Tue Oct 27 16:26:52 2026   Keyword: application/vnd.cups-pdf-banner
+Tue Oct 27 16:26:52 2026   Keyword: application/vnd.cups-postscript
+Tue Oct 27 16:26:52 2026   Keyword: application/vnd.cups-raster
+Tue Oct 27 16:26:52 2026   Keyword: application/vnd.cups-raw
+Tue Oct 27 16:26:52 2026   Keyword: application/x-cshell
+Tue Oct 27 16:26:52 2026   Keyword: application/x-csource
+Tue Oct 27 16:26:52 2026   Keyword: application/x-perl
+Tue Oct 27 16:26:52 2026   Keyword: application/x-shell
+Tue Oct 27 16:26:52 2026   Keyword: image/gif
+Tue Oct 27 16:26:52 2026   Keyword: image/jpeg
+Tue Oct 27 16:26:52 2026   Keyword: image/png
+Tue Oct 27 16:26:52 2026   Keyword: image/pwg-raster
+Tue Oct 27 16:26:52 2026   Keyword: image/tiff
+Tue Oct 27 16:26:52 2026   Keyword: image/urf
+Tue Oct 27 16:26:52 2026   Keyword: image/x-bitmap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-photocd
+Tue Oct 27 16:26:52 2026   Keyword: image/x-portable-anymap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-portable-bitmap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-portable-graymap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-portable-pixmap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-sgi-rgb
+Tue Oct 27 16:26:52 2026   Keyword: image/x-sun-raster
+Tue Oct 27 16:26:52 2026   Keyword: image/x-xbitmap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-xpixmap
+Tue Oct 27 16:26:52 2026   Keyword: image/x-xwindowdump
+Tue Oct 27 16:26:52 2026   Keyword: text/css
+Tue Oct 27 16:26:52 2026   Keyword: text/html
+Tue Oct 27 16:26:52 2026   Keyword: text/plain
+Tue Oct 27 16:26:52 2026   Attr: document-format-preferred
+Tue Oct 27 16:26:52 2026   Value: application/pdf
+Tue Oct 27 16:26:52 2026   Keyword: application/pdf
+Tue Oct 27 16:26:52 2026   Attr: copies-default
+Tue Oct 27 16:26:52 2026   Value: 1
+Tue Oct 27 16:26:52 2026   Attr: document-format-default
+Tue Oct 27 16:26:52 2026   Value: application/octet-stream
+Tue Oct 27 16:26:52 2026   Keyword: application/octet-stream
+Tue Oct 27 16:26:52 2026   Attr: job-hold-until-default
+Tue Oct 27 16:26:52 2026   Value: no-hold
+Tue Oct 27 16:26:52 2026   Keyword: no-hold
+Tue Oct 27 16:26:52 2026   Attr: job-priority-default
+Tue Oct 27 16:26:52 2026   Value: 50
+Tue Oct 27 16:26:52 2026   Attr: number-up-default
+Tue Oct 27 16:26:52 2026   Value: 1
+Tue Oct 27 16:26:52 2026   Attr: orientation-requested-default
+Tue Oct 27 16:26:52 2026   Value: no-value
+Tue Oct 27 16:26:52 2026   Attr: print-color-mode-default
+Tue Oct 27 16:26:52 2026   Value: monochrome
+Tue Oct 27 16:26:52 2026   Keyword: monochrome
+Tue Oct 27 16:26:52 2026   Attr: print-quality-default
+Tue Oct 27 16:26:52 2026   Value: normal
+Tue Oct 27 16:26:52 2026   Attr: color-supported
+Tue Oct 27 16:26:52 2026   Value: false
+Tue Oct 27 16:26:52 2026   Attr: pages-per-minute
+Tue Oct 27 16:26:52 2026   Value: 1
+Tue Oct 27 16:26:52 2026   Attr: print-quality-supported
+Tue Oct 27 16:26:52 2026   Value: draft,normal,high
+Tue Oct 27 16:26:52 2026   Attr: printer-make-and-model
+Tue Oct 27 16:26:52 2026   Value: Printer - IPP Everywhere
+Tue Oct 27 16:26:52 2026   Keyword: Printer - IPP Everywhere
+Tue Oct 27 16:26:52 2026   Attr: media-default
+Tue Oct 27 16:26:52 2026   Value: na_letter_8.5x11in
+Tue Oct 27 16:26:52 2026   Keyword: na_letter_8.5x11in
+Tue Oct 27 16:26:52 2026   Attr: media-col-default
+Tue Oct 27 16:26:52 2026   Value: {media-size={x-dimension=21590 y-dimension=27940} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635}
+Tue Oct 27 16:26:52 2026   Attr: media-supported
+Tue Oct 27 16:26:52 2026   Value: iso_a4_210x297mm,na_number-10_4.125x9.5in,iso_dl_110x220mm,na_legal_8.5x14in,na_letter_8.5x11in
+Tue Oct 27 16:26:52 2026   Keyword: iso_a4_210x297mm
+Tue Oct 27 16:26:52 2026   Keyword: na_number-10_4.125x9.5in
+Tue Oct 27 16:26:52 2026   Keyword: iso_dl_110x220mm
+Tue Oct 27 16:26:52 2026   Keyword: na_legal_8.5x14in
+Tue Oct 27 16:26:52 2026   Keyword: na_letter_8.5x11in
+Tue Oct 27 16:26:52 2026   Attr: media-size-supported
+Tue Oct 27 16:26:52 2026   Value: {x-dimension=21000 y-dimension=29700},{x-dimension=10477 y-dimension=24130},{x-dimension=11000 y-dimension=22000},{x-dimension=21590 y-dimension=35560},{x-dimension=21590 y-dimension=27940}
+Tue Oct 27 16:26:52 2026   Attr: media-source-supported
+Tue Oct 27 16:26:52 2026   Value: auto,main,manual,by-pass-tray
+Tue Oct 27 16:26:52 2026   Keyword: auto
+Tue Oct 27 16:26:52 2026   Keyword: main
+Tue Oct 27 16:26:52 2026   Keyword: manual
+Tue Oct 27 16:26:52 2026   Keyword: by-pass-tray
+Tue Oct 27 16:26:52 2026   Attr: media-type-supported
+Tue Oct 27 16:26:52 2026   Value: auto,cardstock,envelope,labels,other,stationery,stationery-letterhead,transparency
+Tue Oct 27 16:26:52 2026   Keyword: auto
+Tue Oct 27 16:26:52 2026   Keyword: cardstock
+Tue Oct 27 16:26:52 2026   Keyword: envelope
+Tue Oct 27 16:26:52 2026   Keyword: labels
+Tue Oct 27 16:26:52 2026   Keyword: other
+Tue Oct 27 16:26:52 2026   Keyword: stationery
+Tue Oct 27 16:26:52 2026   Keyword: stationery-letterhead
+Tue Oct 27 16:26:52 2026   Keyword: transparency
+Tue Oct 27 16:26:52 2026   Attr: media-bottom-margin-supported
+Tue Oct 27 16:26:52 2026   Value: 635
+Tue Oct 27 16:26:52 2026   Attr: media-left-margin-supported
+Tue Oct 27 16:26:52 2026   Value: 340,635
+Tue Oct 27 16:26:52 2026   Attr: media-right-margin-supported
+Tue Oct 27 16:26:52 2026   Value: 340,635
+Tue Oct 27 16:26:52 2026   Attr: media-top-margin-supported
+Tue Oct 27 16:26:52 2026   Value: 635
+Tue Oct 27 16:26:52 2026   Attr: media-col-database
+Tue Oct 27 16:26:52 2026   Value: {media-size={x-dimension=21000 y-dimension=29700} media-bottom-margin=635 media-left-margin=340 media-right-margin=340 media-top-margin=635},{media-size={x-dimension=10477 y-dimension=24130} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635},{media-size={x-dimension=11000 y-dimension=22000} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635},{media-size={x-dimension=21590 y-dimension=35560} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635},{media-size={x-dimension=21590 y-dimension=27940} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635}
+Tue Oct 27 16:26:52 2026   Attr: media-ready
+Tue Oct 27 16:26:52 2026   Value: iso_a4_210x297mm,iso_dl_110x220mm
+Tue Oct 27 16:26:52 2026   Keyword: iso_a4_210x297mm
+Tue Oct 27 16:26:52 2026   Keyword: iso_dl_110x220mm
+Tue Oct 27 16:26:52 2026   Attr: media-col-ready
+Tue Oct 27 16:26:52 2026   Value: {media-size={x-dimension=21000 y-dimension=29700} media-bottom-margin=635 media-left-margin=340 media-right-margin=340 media-top-margin=635},{media-size={x-dimension=11000 y-dimension=22000} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635}
+Tue Oct 27 16:26:52 2026   Attr: mopria-certified
+Tue Oct 27 16:26:52 2026   Value: 1.3
+Tue Oct 27 16:26:52 2026   Keyword: 1.3
+Tue Oct 27 16:26:52 2026   Attr: output-bin-supported
+Tue Oct 27 16:26:52 2026   Value: face-down
+Tue Oct 27 16:26:52 2026   Keyword: face-down
+Tue Oct 27 16:26:52 2026   Attr: output-bin-default
+Tue Oct 27 16:26:52 2026   Value: face-down
+Tue Oct 27 16:26:52 2026   Keyword: face-down
+Tue Oct 27 16:26:52 2026   Attr: print-color-mode-supported
+Tue Oct 27 16:26:52 2026   Value: monochrome
+Tue Oct 27 16:26:52 2026   Keyword: monochrome
+Tue Oct 27 16:26:52 2026   Attr: pwg-raster-document-type-supported
+Tue Oct 27 16:26:52 2026   Value: black_1,sgray_8
+Tue Oct 27 16:26:52 2026   Keyword: black_1
+Tue Oct 27 16:26:52 2026   Keyword: sgray_8
+Tue Oct 27 16:26:52 2026   Attr: printer-resolution-default
+Tue Oct 27 16:26:52 2026   Value: 600dpi
+Tue Oct 27 16:26:52 2026   Attr: printer-resolution-supported
+Tue Oct 27 16:26:52 2026   Value: 600dpi
+Tue Oct 27 16:26:52 2026   Attr: pwg-raster-document-resolution-supported
+Tue Oct 27 16:26:52 2026   Value: 600dpi
+Tue Oct 27 16:26:52 2026   Attr: sides-supported
+Tue Oct 27 16:26:52 2026   Value: one-sided
+Tue Oct 27 16:26:52 2026   Keyword: one-sided
+Tue Oct 27 16:26:52 2026   Attr: sides-default
+Tue Oct 27 16:26:52 2026   Value: one-sided
+Tue Oct 27 16:26:52 2026   Keyword: one-sided
+Tue Oct 27 16:26:52 2026   Attr: urf-supported
+Tue Oct 27 16:26:52 2026   Value: V1.4,CP1,W8,PQ3-4-5,RS600,FN3
+Tue Oct 27 16:26:52 2026   Keyword: V1.4
+Tue Oct 27 16:26:52 2026   Keyword: CP1
+Tue Oct 27 16:26:52 2026   Keyword: W8
+Tue Oct 27 16:26:52 2026   Keyword: PQ3-4-5
+Tue Oct 27 16:26:52 2026   Keyword: RS600
+Tue Oct 27 16:26:52 2026   Keyword: FN3
+Tue Oct 27 16:26:52 2026   Attr: finishings-col-database
+Tue Oct 27 16:26:52 2026   Value: {finishing-template=none}
+Tue Oct 27 16:26:52 2026   Attr: printer-commands
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: port-monitor
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: port-monitor-supported
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: finishings-supported
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Attr: finishings-default
+Tue Oct 27 16:26:52 2026   Value: none
+Tue Oct 27 16:26:52 2026   Attr: charset-configured
+Tue Oct 27 16:26:52 2026   Value: utf-8
+Tue Oct 27 16:26:52 2026   Keyword: utf-8
+Tue Oct 27 16:26:52 2026   Attr: charset-supported
+Tue Oct 27 16:26:52 2026   Value: us-ascii,utf-8
+Tue Oct 27 16:26:52 2026   Keyword: us-ascii
+Tue Oct 27 16:26:52 2026   Keyword: utf-8
+Tue Oct 27 16:26:52 2026   Attr: compression-supported
+Tue Oct 27 16:26:52 2026   Value: none,gzip
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Keyword: gzip
+Tue Oct 27 16:26:52 2026   Attr: copies-supported
+Tue Oct 27 16:26:52 2026   Value: 1-9999
+Tue Oct 27 16:26:52 2026   Attr: generated-natural-language-supported
+Tue Oct 27 16:26:52 2026   Value: en-us
+Tue Oct 27 16:26:52 2026   Keyword: en-us
+Tue Oct 27 16:26:52 2026   Attr: ipp-features-supported
+Tue Oct 27 16:26:52 2026   Value: subscription-object
+Tue Oct 27 16:26:52 2026   Keyword: subscription-object
+Tue Oct 27 16:26:52 2026   Attr: ipp-versions-supported
+Tue Oct 27 16:26:52 2026   Value: 1.0,1.1,2.0,2.1
+Tue Oct 27 16:26:52 2026   Keyword: 1.0
+Tue Oct 27 16:26:52 2026   Keyword: 1.1
+Tue Oct 27 16:26:52 2026   Keyword: 2.0
+Tue Oct 27 16:26:52 2026   Keyword: 2.1
+Tue Oct 27 16:26:52 2026   Attr: ippget-event-life
+Tue Oct 27 16:26:52 2026   Value: 15
+Tue Oct 27 16:26:52 2026   Attr: job-creation-attributes-supported
+Tue Oct 27 16:26:52 2026   Value: copies,finishings,finishings-col,ipp-attribute-fidelity,job-hold-until,job-name,job-priority,job-sheets,media,media-col,multiple-document-handling,number-up,number-up-layout,orientation-requested,output-bin,page-delivery,page-ranges,print-color-mode,print-quality,print-scaling,printer-resolution,sides
+Tue Oct 27 16:26:52 2026   Keyword: copies
+Tue Oct 27 16:26:52 2026   Keyword: finishings
+Tue Oct 27 16:26:52 2026   Keyword: finishings-col
+Tue Oct 27 16:26:52 2026   Keyword: ipp-attribute-fidelity
+Tue Oct 27 16:26:52 2026   Keyword: job-hold-until
+Tue Oct 27 16:26:52 2026   Keyword: job-name
+Tue Oct 27 16:26:52 2026   Keyword: job-priority
+Tue Oct 27 16:26:52 2026   Keyword: job-sheets
+Tue Oct 27 16:26:52 2026   Keyword: media
+Tue Oct 27 16:26:52 2026   Keyword: media-col
+Tue Oct 27 16:26:52 2026   Keyword: multiple-document-handling
+Tue Oct 27 16:26:52 2026   Keyword: number-up
+Tue Oct 27 16:26:52 2026   Keyword: number-up-layout
+Tue Oct 27 16:26:52 2026   Keyword: orientation-requested
+Tue Oct 27 16:26:52 2026   Keyword: output-bin
+Tue Oct 27 16:26:52 2026   Keyword: page-delivery
+Tue Oct 27 16:26:52 2026   Keyword: page-ranges
+Tue Oct 27 16:26:52 2026   Keyword: print-color-mode
+Tue Oct 27 16:26:52 2026   Keyword: print-quality
+Tue Oct 27 16:26:52 2026   Keyword: print-scaling
+Tue Oct 27 16:26:52 2026   Keyword: printer-resolution
+Tue Oct 27 16:26:52 2026   Keyword: sides
+Tue Oct 27 16:26:52 2026   Attr: job-hold-until-supported
+Tue Oct 27 16:26:52 2026   Value: no-hold,indefinite,day-time,evening,night,second-shift,third-shift,weekend
+Tue Oct 27 16:26:52 2026   Keyword: no-hold
+Tue Oct 27 16:26:52 2026   Keyword: indefinite
+Tue Oct 27 16:26:52 2026   Keyword: day-time
+Tue Oct 27 16:26:52 2026   Keyword: evening
+Tue Oct 27 16:26:52 2026   Keyword: night
+Tue Oct 27 16:26:52 2026   Keyword: second-shift
+Tue Oct 27 16:26:52 2026   Keyword: third-shift
+Tue Oct 27 16:26:52 2026   Keyword: weekend
+Tue Oct 27 16:26:52 2026   Attr: job-ids-supported
+Tue Oct 27 16:26:52 2026   Value: true
+Tue Oct 27 16:26:52 2026   Attr: job-k-octets-supported
+Tue Oct 27 16:26:52 2026   Value: 0-82083148
+Tue Oct 27 16:26:52 2026   Attr: job-priority-supported
+Tue Oct 27 16:26:52 2026   Value: 100
+Tue Oct 27 16:26:52 2026   Attr: job-settable-attributes-supported
+Tue Oct 27 16:26:52 2026   Value: copies,finishings,job-hold-until,job-name,job-priority,media,media-col,multiple-document-handling,number-up,output-bin,orientation-requested,page-ranges,print-color-mode,print-quality,printer-resolution,sides
+Tue Oct 27 16:26:52 2026   Keyword: copies
+Tue Oct 27 16:26:52 2026   Keyword: finishings
+Tue Oct 27 16:26:52 2026   Keyword: job-hold-until
+Tue Oct 27 16:26:52 2026   Keyword: job-name
+Tue Oct 27 16:26:52 2026   Keyword: job-priority
+Tue Oct 27 16:26:52 2026   Keyword: media
+Tue Oct 27 16:26:52 2026   Keyword: media-col
+Tue Oct 27 16:26:52 2026   Keyword: multiple-document-handling
+Tue Oct 27 16:26:52 2026   Keyword: number-up
+Tue Oct 27 16:26:52 2026   Keyword: output-bin
+Tue Oct 27 16:26:52 2026   Keyword: orientation-requested
+Tue Oct 27 16:26:52 2026   Keyword: page-ranges
+Tue Oct 27 16:26:52 2026   Keyword: print-color-mode
+Tue Oct 27 16:26:52 2026   Keyword: print-quality
+Tue Oct 27 16:26:52 2026   Keyword: printer-resolution
+Tue Oct 27 16:26:52 2026   Keyword: sides
+Tue Oct 27 16:26:52 2026   Attr: job-sheets-supported
+Tue Oct 27 16:26:52 2026   Value: none,classified,confidential,form,secret,standard,topsecret,unclassified
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Keyword: classified
+Tue Oct 27 16:26:52 2026   Keyword: confidential
+Tue Oct 27 16:26:52 2026   Keyword: form
+Tue Oct 27 16:26:52 2026   Keyword: secret
+Tue Oct 27 16:26:52 2026   Keyword: standard
+Tue Oct 27 16:26:52 2026   Keyword: topsecret
+Tue Oct 27 16:26:52 2026   Keyword: unclassified
+Tue Oct 27 16:26:52 2026   Attr: jpeg-k-octets-supported
+Tue Oct 27 16:26:52 2026   Value: 0-82083148
+Tue Oct 27 16:26:52 2026   Attr: jpeg-x-dimension-supported
+Tue Oct 27 16:26:52 2026   Value: 0-65535
+Tue Oct 27 16:26:52 2026   Attr: jpeg-y-dimension-supported
+Tue Oct 27 16:26:52 2026   Value: 1-65535
+Tue Oct 27 16:26:52 2026   Attr: media-col-supported
+Tue Oct 27 16:26:52 2026   Value: media-bottom-margin,media-left-margin,media-right-margin,media-size,media-source,media-top-margin,media-type
+Tue Oct 27 16:26:52 2026   Keyword: media-bottom-margin
+Tue Oct 27 16:26:52 2026   Keyword: media-left-margin
+Tue Oct 27 16:26:52 2026   Keyword: media-right-margin
+Tue Oct 27 16:26:52 2026   Keyword: media-size
+Tue Oct 27 16:26:52 2026   Keyword: media-source
+Tue Oct 27 16:26:52 2026   Keyword: media-top-margin
+Tue Oct 27 16:26:52 2026   Keyword: media-type
+Tue Oct 27 16:26:52 2026   Attr: multiple-document-handling-supported
+Tue Oct 27 16:26:52 2026   Value: separate-documents-uncollated-copies,separate-documents-collated-copies
+Tue Oct 27 16:26:52 2026   Keyword: separate-documents-uncollated-copies
+Tue Oct 27 16:26:52 2026   Keyword: separate-documents-collated-copies
+Tue Oct 27 16:26:52 2026   Attr: multiple-document-jobs-supported
+Tue Oct 27 16:26:52 2026   Value: true
+Tue Oct 27 16:26:52 2026   Attr: multiple-operation-time-out
+Tue Oct 27 16:26:52 2026   Value: 900
+Tue Oct 27 16:26:52 2026   Attr: multiple-operation-time-out-action
+Tue Oct 27 16:26:52 2026   Value: process-job
+Tue Oct 27 16:26:52 2026   Keyword: process-job
+Tue Oct 27 16:26:52 2026   Attr: natural-language-configured
+Tue Oct 27 16:26:52 2026   Value: en-us
+Tue Oct 27 16:26:52 2026   Keyword: en-us
+Tue Oct 27 16:26:52 2026   Attr: number-up-supported
+Tue Oct 27 16:26:52 2026   Value: 1,2,4,6,9,16
+Tue Oct 27 16:26:52 2026   Attr: operations-supported
+Tue Oct 27 16:26:52 2026   Value: Print-Job,Validate-Job,Create-Job,Send-Document,Cancel-Job,Get-Job-Attributes,Get-Jobs,Get-Printer-Attributes,Hold-Job,Release-Job,Pause-Printer,Resume-Printer,Purge-Jobs,Set-Printer-Attributes,Set-Job-Attributes,Get-Printer-Supported-Values,Create-Printer-Subscriptions,Create-Job-Subscriptions,Get-Subscription-Attributes,Get-Subscriptions,Renew-Subscription,Cancel-Subscription,Get-Notifications,Enable-Printer,Disable-Printer,Hold-New-Jobs,Release-Held-New-Jobs,Cancel-Jobs,Cancel-My-Jobs,Close-Job,CUPS-Get-Default,CUPS-Get-Printers,CUPS-Add-Modify-Printer,CUPS-Delete-Printer,CUPS-Get-Classes,CUPS-Add-Modify-Class,CUPS-Delete-Class,CUPS-Accept-Jobs,CUPS-Reject-Jobs,CUPS-Set-Default,CUPS-Get-Devices,CUPS-Get-PPDs,CUPS-Move-Job,CUPS-Authenticate-Job,CUPS-Get-PPD,CUPS-Get-Document,Restart-Job
+Tue Oct 27 16:26:52 2026   Attr: orientation-requested-supported
+Tue Oct 27 16:26:52 2026   Value: portrait,landscape,reverse-landscape,reverse-portrait
+Tue Oct 27 16:26:52 2026   Attr: page-delivery-supported
+Tue Oct 27 16:26:52 2026   Value: reverse-order,same-order
+Tue Oct 27 16:26:52 2026   Keyword: reverse-order
+Tue Oct 27 16:26:52 2026   Keyword: same-order
+Tue Oct 27 16:26:52 2026   Attr: page-ranges-supported
+Tue Oct 27 16:26:52 2026   Value: true
+Tue Oct 27 16:26:52 2026   Attr: pdf-k-octets-supported
+Tue Oct 27 16:26:52 2026   Value: 0-82083148
+Tue Oct 27 16:26:52 2026   Attr: pdf-versions-supported
+Tue Oct 27 16:26:52 2026   Value: adobe-1.2,adobe-1.3,adobe-1.4,adobe-1.5,adobe-1.6,adobe-1.7,iso-19005-1_2005,iso-32000-1_2008,pwg-5102.3
+Tue Oct 27 16:26:52 2026   Keyword: adobe-1.2
+Tue Oct 27 16:26:52 2026   Keyword: adobe-1.3
+Tue Oct 27 16:26:52 2026   Keyword: adobe-1.4
+Tue Oct 27 16:26:52 2026   Keyword: adobe-1.5
+Tue Oct 27 16:26:52 2026   Keyword: adobe-1.6
+Tue Oct 27 16:26:52 2026   Keyword: adobe-1.7
+Tue Oct 27 16:26:52 2026   Keyword: iso-19005-1_2005
+Tue Oct 27 16:26:52 2026   Keyword: iso-32000-1_2008
+Tue Oct 27 16:26:52 2026   Keyword: pwg-5102.3
+Tue Oct 27 16:26:52 2026   Attr: pdl-override-supported
+Tue Oct 27 16:26:52 2026   Value: attempted
+Tue Oct 27 16:26:52 2026   Keyword: attempted
+Tue Oct 27 16:26:52 2026   Attr: print-scaling-supported
+Tue Oct 27 16:26:52 2026   Value: auto,auto-fit,fill,fit,none
+Tue Oct 27 16:26:52 2026   Keyword: auto
+Tue Oct 27 16:26:52 2026   Keyword: auto-fit
+Tue Oct 27 16:26:52 2026   Keyword: fill
+Tue Oct 27 16:26:52 2026   Keyword: fit
+Tue Oct 27 16:26:52 2026   Keyword: none
+Tue Oct 27 16:26:52 2026   Attr: printer-get-attributes-supported
+Tue Oct 27 16:26:52 2026   Value: document-format
+Tue Oct 27 16:26:52 2026   Keyword: document-format
+Tue Oct 27 16:26:52 2026   Attr: printer-settable-attributes-supported
+Tue Oct 27 16:26:52 2026   Value: printer-geo-location,printer-info,printer-location,printer-organization,printer-organizational-unit
+Tue Oct 27 16:26:52 2026   Keyword: printer-geo-location
+Tue Oct 27 16:26:52 2026   Keyword: printer-info
+Tue Oct 27 16:26:52 2026   Keyword: printer-location
+Tue Oct 27 16:26:52 2026   Keyword: printer-organization
+Tue Oct 27 16:26:52 2026   Keyword: printer-organizational-unit
+Tue Oct 27 16:26:52 2026   Attr: which-jobs-supported
+Tue Oct 27 16:26:52 2026   Value: completed,not-completed,aborted,all,canceled,pending,pending-held,processing,processing-stopped
+Tue Oct 27 16:26:52 2026   Keyword: completed
+Tue Oct 27 16:26:52 2026   Keyword: not-completed
+Tue Oct 27 16:26:52 2026   Keyword: aborted
+Tue Oct 27 16:26:52 2026   Keyword: all
+Tue Oct 27 16:26:52 2026   Keyword: canceled
+Tue Oct 27 16:26:52 2026   Keyword: pending
+Tue Oct 27 16:26:52 2026   Keyword: pending-held
+Tue Oct 27 16:26:52 2026   Keyword: processing
+Tue Oct 27 16:26:52 2026   Keyword: processing-stopped
+Tue Oct 27 16:26:52 2026 
+Tue Oct 27 16:26:52 2026 140510132757440 === Remote printer overview ===
+Tue Oct 27 16:26:52 2026 140510132757440 ===============================
+Tue Oct 27 16:26:52 2026 140510132757440 === Remote printer overview ===
+Tue Oct 27 16:26:52 2026 140510132757440 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 16:26:52 2026 140510132757440 ===============================
+Tue Oct 27 16:26:52 2026 140510132757440 DNS-SD IDs: Service name: "HP LaserJet @ 172.20.0.20", Service type: "", Domain: ""
+Tue Oct 27 16:26:52 2026 140510132757440 checking queues in 0s
+Tue Oct 27 16:26:52 2026 140510132757440 update_cups_queues() in THREAD 140510164882912
+Tue Oct 27 16:26:52 2026 140510132757440 Processing printer list ...
+Tue Oct 27 16:26:52 2026 140510132757440 === Remote printer overview ===
+Tue Oct 27 16:26:52 2026 140510132757440 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 16:26:52 2026 140510132757440 ===============================
+Tue Oct 27 16:26:52 2026 140510132757440 === Remote printer overview ===
+Tue Oct 27 16:26:52 2026 140510132757440 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 16:26:52 2026 140510132757440 ===============================
+Tue Oct 27 16:26:52 2026 140510132757440 listening
+Tue Oct 27 16:26:52 2026 140510115944128 create_queue() in THREAD 140510115944128
+Tue Oct 27 16:26:52 2026 140510115944128 Creating/Updating CUPS queue HP_LaserJet_172_20_0_20
+Tue Oct 27 16:26:52 2026 140510115944128 Creating permanent CUPS queue HP_LaserJet_172_20_0_20.
+Tue Oct 27 16:26:52 2026 140510115944128 Loading saved printer options for HP_LaserJet_172_20_0_20 from /var/cache/cups/cups-browsed-options-HP_LaserJet_172_20_0_20
+Tue Oct 27 16:26:52 2026 140510115944128 Failed reading file /var/cache/cups/cups-browsed-options-HP_LaserJet_172_20_0_20, probably no options recorded yet
+Tue Oct 27 16:26:52 2026 140510115944128 Print queue HP_LaserJet_172_20_0_20 is for remote CUPS queue(s) and we get notifications from CUPS, using implicit class device URI implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 16:26:52 2026 140510115944128 PPD generation successful: PDF PPD generated.
+Tue Oct 27 16:26:52 2026 140510115944128 Created temporary PPD file: /tmp/000016ae19899
+Tue Oct 27 16:26:52 2026 140510115944128 Using PPD /tmp/000016ae19899 for queue HP_LaserJet_172_20_0_20.
+Tue Oct 27 16:26:52 2026 140510115944128 Editing PPD file /tmp/000016ae19899 for printer HP_LaserJet_172_20_0_20, setting the option defaults of the previous cups-browsed session and doing client-side filtering of the job, saving the resulting PPD in /tmp/000016ae1bb89.
+Tue Oct 27 16:26:52 2026 140510115944128 Non-raw queue HP_LaserJet_172_20_0_20 with PPD file: /tmp/000016ae1bb89
+Tue Oct 27 16:26:52 2026 140510115944128 Print queue update 1 of this series: HP_LaserJet_172_20_0_20
+Tue Oct 27 16:26:52 2026 140510115944128 Unsetting printer-is-shared bit.
+Tue Oct 27 16:26:52 2026 140510115944128 Failed reading file /var/cache/cups/cups-browsed-remote-default-printer
+Tue Oct 27 16:26:52 2026 140510115944128 starting BrowseTimeout timer for HP_LaserJet_172_20_0_20 (300s)
+Tue Oct 27 16:26:52 2026 140510132757440 on_printer_state_changed() in THREAD 140510132757440
+Tue Oct 27 16:26:52 2026 140510132757440 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Now accepting jobs.
+Tue Oct 27 16:26:52 2026 140510132757440 [CUPS Notification] Printer state reasons: paused
+Tue Oct 27 16:26:52 2026 140510132757440 on_printer_state_changed() in THREAD 140510132757440
+Tue Oct 27 16:26:52 2026 140510132757440 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed to idle.
+Tue Oct 27 16:26:52 2026 140510132757440 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 16:29:53 2026 140510132757440 Caught signal 15, shutting down ...
+Tue Oct 27 16:29:53 2026 140510132757440 main loop exited
+Tue Oct 27 16:29:53 2026 140510132757440 update_cups_queues() in THREAD 140510164882912
+Tue Oct 27 16:29:53 2026 140510132757440 Processing printer list ...
+Tue Oct 27 16:29:53 2026 140510132757440 === Remote printer overview ===
+Tue Oct 27 16:29:53 2026 140510132757440 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (Disappeared)
+Tue Oct 27 16:29:53 2026 140510132757440 ===============================
+Tue Oct 27 16:29:53 2026 140510132757440 Removing entry HP_LaserJet_172_20_0_20 (ipp://172.20.0.20:631/printers/Office-Printer) and its CUPS queue.
+Tue Oct 27 16:29:53 2026 140510132757440 Recording printer options for HP_LaserJet_172_20_0_20 to /var/cache/cups/cups-browsed-options-HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026 140510132757440 Recording option settings of the PPD file for HP_LaserJet_172_20_0_20 (Printer - IPP Everywhere, driverless, 2.1b1):
+Tue Oct 27 16:29:53 2026 140510132757440    ColorModel=Gray
+Tue Oct 27 16:29:53 2026 140510132757440    cupsFinishingTemplate=None
+Tue Oct 27 16:29:53 2026 140510132757440    cupsPrintQuality=Normal
+Tue Oct 27 16:29:53 2026 140510132757440    InputSlot=Auto
+Tue Oct 27 16:29:53 2026 140510132757440    MediaType=Unknown
+Tue Oct 27 16:29:53 2026 140510132757440    OutputBin=FaceDown
+Tue Oct 27 16:29:53 2026 140510132757440    PageSize=Letter
+Tue Oct 27 16:29:53 2026 140510132757440    print-scaling=auto
+Tue Oct 27 16:29:53 2026 140510132757440 Recording option settings from the IPP attributes for HP_LaserJet_172_20_0_20:
+Tue Oct 27 16:29:53 2026 140510132757440    printer-error-policy=stop-printer
+Tue Oct 27 16:29:53 2026 140510132757440    printer-is-accepting-jobs=true
+Tue Oct 27 16:29:53 2026 140510132757440    printer-is-shared=false
+Tue Oct 27 16:29:53 2026 140510132757440    printer-op-policy=default
+Tue Oct 27 16:29:53 2026 140510132757440    printer-state-reasons=none
+Tue Oct 27 16:29:53 2026 140510132757440    printer-location=Office 2nd floor
+Tue Oct 27 16:29:53 2026 140510132757440    printer-geo-location=unknown
+Tue Oct 27 16:29:53 2026 140510132757440    printer-info=HP LaserJet
+Tue Oct 27 16:29:53 2026 140510132757440    job-quota-period=0
+Tue Oct 27 16:29:53 2026 140510132757440    job-k-limit=0
+Tue Oct 27 16:29:53 2026 140510132757440    job-page-limit=0
+Tue Oct 27 16:29:53 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026 Full list of all IPP attributes:
+Tue Oct 27 16:29:53 2026   Attr: attributes-charset
+Tue Oct 27 16:29:53 2026   Value: utf-8
+Tue Oct 27 16:29:53 2026   Keyword: utf-8
+Tue Oct 27 16:29:53 2026   Attr: attributes-natural-language
+Tue Oct 27 16:29:53 2026   Value: en-us
+Tue Oct 27 16:29:53 2026   Keyword: en-us
+Tue Oct 27 16:29:53 2026   Attr: printer-uri-supported
+Tue Oct 27 16:29:53 2026   Value: ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026   Keyword: ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026   Attr: printer-name
+Tue Oct 27 16:29:53 2026   Value: HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026   Keyword: HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026   Attr: device-uri
+Tue Oct 27 16:29:53 2026   Value: implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 16:29:53 2026   Keyword: implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 16:29:53 2026   Attr: printer-make-and-model
+Tue Oct 27 16:29:53 2026   Value: Printer - IPP Everywhere, driverless, 2.1b1
+Tue Oct 27 16:29:53 2026   Keyword: Printer - IPP Everywhere, driverless, 2.1b1
+Tue Oct 27 16:29:53 2026 
+Tue Oct 27 16:29:53 2026 140510132757440 Could not determine system default printer!
+Tue Oct 27 16:29:53 2026 140510132757440 Removing local CUPS queue HP_LaserJet_172_20_0_20 (ipp://172.20.0.20:631/printers/Office-Printer).
+Tue Oct 27 16:29:53 2026 140510132757440 Print queue update 1 of this series: HP_LaserJet_172_20_0_20
+Tue Oct 27 16:29:53 2026 140510132757440 === Remote printer overview ===
+Tue Oct 27 16:29:53 2026 140510132757440 ===============================
+Tue Oct 27 16:29:53 2026 140510132757440 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Cancel-Subscription
+Removing stale PID file /var/run/dbus/pid..
+Starting system message bus: dbus.
+Tue Oct 27 21:46:19 2026 140527631184832 Reading command line option --debug, turning on debug mode (Log on standard error).
+Tue Oct 27 21:46:19 2026 140527631184832 cups-browsed version 2.0.1 starting.
+Tue Oct 27 21:46:19 2026 140527631184832 Reading config: BrowseRemoteProtocols dnssd cups
+Tue Oct 27 21:46:19 2026 140527631184832 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+Tue Oct 27 21:46:19 2026 140527631184832 main() in THREAD 140527631184832
+Tue Oct 27 21:46:19 2026 140527631184832 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+Tue Oct 27 21:46:19 2026 140527631184832 update_netifs() in THREAD 140527631184832
+Tue Oct 27 21:46:19 2026 140527631184832 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.20.0.10, fb3bf062d280, 172.20.0.10*), lo (::1)
+Tue Oct 27 21:46:19 2026 140527631184832 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+Tue Oct 27 21:46:19 2026 140527631184832 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=3
+Tue Oct 27 21:46:19 2026 140527631184832 cups-browsed (): cupsEnumDests
+Tue Oct 27 21:46:19 2026 140527631184832 Printer HP_LaserJet_172_20_0_20: implicitclass://HP_LaserJet_172_20_0_20/, 3b5528ec-e30a-3347-44a3-c34a93ca2c91, cups_browsed
+Tue Oct 27 21:46:19 2026 140527631184832 Could not determine system default printer!
+Tue Oct 27 21:46:19 2026 140527631184832 find_previous_queue() in THREAD 140527631184832
+Tue Oct 27 21:46:19 2026 140527631184832 === Remote printer overview ===
+Tue Oct 27 21:46:19 2026 140527631184832 ===============================
+Tue Oct 27 21:46:19 2026 140527631184832 === Remote printer overview ===
+Tue Oct 27 21:46:19 2026 140527631184832 Printer  (, ): Local queue hp_laserjet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 21:46:19 2026 140527631184832 ===============================
+Tue Oct 27 21:46:19 2026 140527631184832 Found CUPS queue hp_laserjet_172_20_0_20 (URI: ) from previous session.
+Tue Oct 27 21:46:19 2026 140527631184832 Using signal handler SIGACTION
+Tue Oct 27 21:46:19 2026 140527631184832 checking queues in 90s
+Tue Oct 27 21:47:26 2026 140527631184832 process_browse_data() in THREAD 140527631184832
+Tue Oct 27 21:47:26 2026 140527631184832 browse packet received from 172.20.0.20
+Tue Oct 27 21:47:26 2026 140527631184832 process_browse_data: location: |Office 2nd floor|
+Tue Oct 27 21:47:26 2026 140527631184832 process_browse_data: info: |HP LaserJet|
+Tue Oct 27 21:47:26 2026 140527631184832 CUPS browsing: Remote host: 172.20.0.20; Port: 631; Remote queue name: Office-Printer; Service Name: HP LaserJet @ 172.20.0.20
+Tue Oct 27 21:47:26 2026 140527631184832 Found CUPS queue/class: Office-Printer on host 172.20.0.20.
+Tue Oct 27 21:47:26 2026 140527631184832 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Tue Oct 27 21:47:26 2026 140527631184832 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Tue Oct 27 21:47:26 2026 140527631184832 Matching printer "HP_LaserJet_172_20_0_20" with properties Host = "172.20.0.20", Port = 631, Service Name = "HP LaserJet @ 172.20.0.20", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Tue Oct 27 21:47:26 2026 140527631184832 All BrowseFilter lines matched or skipped, accepting printer HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:26 2026 140527631184832 update_netifs() in THREAD 140527631184832
+Tue Oct 27 21:47:26 2026 140527631184832 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.20.0.10, fb3bf062d280, 172.20.0.10*), lo (::1)
+Tue Oct 27 21:47:26 2026 140527631184832 Entry for hp_laserjet_172_20_0_20 (URI: ) already exists.
+Tue Oct 27 21:47:26 2026 140527631184832 Replacing printer entry hp_laserjet_172_20_0_20 (Host: 172.20.0.20, Port: 631) as it was marked unconfirmed. New URI: ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:26 2026 140527631184832 Switched over to newly discovered entry for this printer.
+Tue Oct 27 21:47:26 2026 140527631184832 DNS-SD IDs: Service name: "HP LaserJet @ 172.20.0.20", Service type: "", Domain: ""
+Tue Oct 27 21:47:26 2026 140527631184832 checking queues in 0s
+Tue Oct 27 21:47:26 2026 140527631184832 update_cups_queues() in THREAD 140527663310304
+Tue Oct 27 21:47:26 2026 140527631184832 Processing printer list ...
+Tue Oct 27 21:47:26 2026 140527631184832 === Remote printer overview ===
+Tue Oct 27 21:47:26 2026 140527631184832 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 21:47:26 2026 140527631184832 ===============================
+Tue Oct 27 21:47:26 2026 140527631184832 === Remote printer overview ===
+Tue Oct 27 21:47:26 2026 140527631184832 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 21:47:26 2026 140527631184832 ===============================
+Tue Oct 27 21:47:26 2026 140527631184832 listening
+Tue Oct 27 21:47:26 2026 140527614371520 create_queue() in THREAD 140527614371520
+Tue Oct 27 21:47:26 2026 140527614371520 Creating/Updating CUPS queue HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:26 2026 140527614371520 Our new queue overwrites the possibly temporary CUPS queue HP_LaserJet_172_20_0_20, so we need to assure the queue gets permanent.
+Tue Oct 27 21:47:26 2026 140527614371520 Setting printer-is-shared bit to make this queue permanent.
+Tue Oct 27 21:47:26 2026 140527614371520 Removing the possibly temporary CUPS queue.
+Tue Oct 27 21:47:26 2026 140527631184832 on_printer_deleted() in THREAD 140527631184832
+Tue Oct 27 21:47:26 2026 140527631184832 [CUPS Notification] Printer deleted: Printer "HP_LaserJet_172_20_0_20" deleted by "root".
+Tue Oct 27 21:47:26 2026 140527631184832 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Tue Oct 27 21:47:26 2026 140527631184832 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: printer-* event
+Tue Oct 27 21:47:31 2026 140527614371520 HTTP timeout! (consider increasing HttpLocalTimeout/HttpRemoteTimeout value)
+Tue Oct 27 21:47:31 2026 140527614371520 Unable to remove temporary CUPS queue (Success), retrying later
+Tue Oct 27 21:47:31 2026 140527631184832 cups-browsed (): cupsEnumDests
+Tue Oct 27 21:47:31 2026 140527631184832 free_local_printer() in THREAD 140527631184832
+Tue Oct 27 21:47:31 2026 140527631184832 Printer HP_LaserJet_172_20_0_20 got deleted, re-creating it.
+Tue Oct 27 21:47:31 2026 140527631184832 checking queues in 0s
+Tue Oct 27 21:47:31 2026 140527631184832 update_cups_queues() in THREAD 140527663310304
+Tue Oct 27 21:47:31 2026 140527631184832 Processing printer list ...
+Tue Oct 27 21:47:31 2026 140527631184832 === Remote printer overview ===
+Tue Oct 27 21:47:31 2026 140527631184832 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 21:47:31 2026 140527631184832 ===============================
+Tue Oct 27 21:47:31 2026 140527614371520 create_queue() in THREAD 140527614371520
+Tue Oct 27 21:47:31 2026 140527614371520 Creating/Updating CUPS queue HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:31 2026 140527631184832 === Remote printer overview ===
+Tue Oct 27 21:47:31 2026 140527631184832 Printer ipp://172.20.0.20:631/printers/Office-Printer (172.20.0.20, IP not determined): Local queue HP_LaserJet_172_20_0_20, Remote CUPS Printer, Slave of None (To be created/updated)
+Tue Oct 27 21:47:31 2026 140527631184832 ===============================
+Tue Oct 27 21:47:31 2026 140527631184832 listening
+Tue Oct 27 21:47:31 2026 140527614371520 Creating permanent CUPS queue HP_LaserJet_172_20_0_20.
+Tue Oct 27 21:47:31 2026 140527614371520 Loading saved printer options for HP_LaserJet_172_20_0_20 from /var/cache/cups/cups-browsed-options-HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:31 2026 140527614371520 Loading following option settings for printer HP_LaserJet_172_20_0_20:
+Tue Oct 27 21:47:31 2026 140527614371520    ColorModel=Gray
+Tue Oct 27 21:47:31 2026 140527614371520    cupsFinishingTemplate=None
+Tue Oct 27 21:47:31 2026 140527614371520    cupsPrintQuality=Normal
+Tue Oct 27 21:47:31 2026 140527614371520    InputSlot=Auto
+Tue Oct 27 21:47:31 2026 140527614371520    job-k-limit=0
+Tue Oct 27 21:47:31 2026 140527614371520    job-page-limit=0
+Tue Oct 27 21:47:31 2026 140527614371520    job-quota-period=0
+Tue Oct 27 21:47:31 2026 140527614371520    MediaType=Unknown
+Tue Oct 27 21:47:31 2026 140527614371520    OutputBin=FaceDown
+Tue Oct 27 21:47:31 2026 140527614371520    PageSize=Letter
+Tue Oct 27 21:47:31 2026 140527614371520    print-scaling=auto
+Tue Oct 27 21:47:31 2026 140527614371520    printer-error-policy=stop-printer
+Tue Oct 27 21:47:31 2026 140527614371520    printer-geo-location=unknown
+Tue Oct 27 21:47:31 2026 140527614371520    printer-info=HP LaserJet
+Tue Oct 27 21:47:31 2026 140527614371520    printer-is-accepting-jobs=true
+Tue Oct 27 21:47:31 2026 140527614371520    printer-is-shared=false
+Tue Oct 27 21:47:31 2026 140527614371520    printer-location=Office 2nd floor
+Tue Oct 27 21:47:31 2026 140527614371520    printer-op-policy=default
+Tue Oct 27 21:47:31 2026 140527614371520    printer-state-reasons=none
+Tue Oct 27 21:47:31 2026 140527614371520 
+Tue Oct 27 21:47:31 2026 140527614371520 Print queue HP_LaserJet_172_20_0_20 is for remote CUPS queue(s) and we get notifications from CUPS, using implicit class device URI implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 21:47:31 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:31 2026 Full list of all IPP attributes:
+Tue Oct 27 21:47:31 2026   Attr: attributes-charset
+Tue Oct 27 21:47:31 2026   Value: utf-8
+Tue Oct 27 21:47:31 2026   Keyword: utf-8
+Tue Oct 27 21:47:31 2026   Attr: attributes-natural-language
+Tue Oct 27 21:47:31 2026   Value: en-us
+Tue Oct 27 21:47:31 2026   Keyword: en-us
+Tue Oct 27 21:47:31 2026   Attr: marker-change-time
+Tue Oct 27 21:47:31 2026   Value: 0
+Tue Oct 27 21:47:31 2026   Attr: printer-config-change-date-time
+Tue Oct 27 21:47:31 2026   Value: 2026-10-27T21:44:28Z
+Tue Oct 27 21:47:31 2026   Attr: printer-config-change-time
+Tue Oct 27 21:47:31 2026   Value: 1793137468
+Tue Oct 27 21:47:31 2026   Attr: printer-current-time
+Tue Oct 27 21:47:31 2026   Value: 2026-10-27T21:47:31Z
+Tue Oct 27 21:47:31 2026   Attr: printer-dns-sd-name
+Tue Oct 27 21:47:31 2026   Value: Office-Printer @ bdd069b6153a
+Tue Oct 27 21:47:31 2026   Keyword: Office-Printer @ bdd069b6153a
+Tue Oct 27 21:47:31 2026   Attr: printer-icons
+Tue Oct 27 21:47:31 2026   Value: http://172.20.0.20:631/icons/Office-Printer.png
+Tue Oct 27 21:47:31 2026   Keyword: http://172.20.0.20:631/icons/Office-Printer.png
+Tue Oct 27 21:47:31 2026   Attr: printer-is-accepting-jobs
+Tue Oct 27 21:47:31 2026   Value: true
+Tue Oct 27 21:47:31 2026   Attr: printer-is-shared
+Tue Oct 27 21:47:31 2026   Value: true
+Tue Oct 27 21:47:31 2026   Attr: printer-is-temporary
+Tue Oct 27 21:47:31 2026   Value: false
+Tue Oct 27 21:47:31 2026   Attr: printer-more-info
+Tue Oct 27 21:47:31 2026   Value: http://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:31 2026   Keyword: http://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:31 2026   Attr: printer-state
+Tue Oct 27 21:47:31 2026   Value: idle
+Tue Oct 27 21:47:31 2026   Attr: printer-state-change-date-time
+Tue Oct 27 21:47:31 2026   Value: 2026-10-27T16:07:21Z
+Tue Oct 27 21:47:31 2026   Attr: printer-state-change-time
+Tue Oct 27 21:47:31 2026   Value: 1793117241
+Tue Oct 27 21:47:31 2026   Attr: printer-state-message
+Tue Oct 27 21:47:31 2026   Value: 
+Tue Oct 27 21:47:31 2026   Keyword: 
+Tue Oct 27 21:47:31 2026   Attr: printer-state-reasons
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: printer-type
+Tue Oct 27 21:47:31 2026   Value: 4100
+Tue Oct 27 21:47:31 2026   Attr: printer-up-time
+Tue Oct 27 21:47:31 2026   Value: 1793137651
+Tue Oct 27 21:47:31 2026   Attr: printer-uri-supported
+Tue Oct 27 21:47:31 2026   Value: ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:31 2026   Keyword: ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:31 2026   Attr: queued-job-count
+Tue Oct 27 21:47:31 2026   Value: 0
+Tue Oct 27 21:47:31 2026   Attr: uri-security-supported
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: uri-authentication-supported
+Tue Oct 27 21:47:31 2026   Value: requesting-user-name
+Tue Oct 27 21:47:31 2026   Keyword: requesting-user-name
+Tue Oct 27 21:47:31 2026   Attr: printer-id
+Tue Oct 27 21:47:31 2026   Value: 1
+Tue Oct 27 21:47:31 2026   Attr: printer-name
+Tue Oct 27 21:47:31 2026   Value: Office-Printer
+Tue Oct 27 21:47:31 2026   Keyword: Office-Printer
+Tue Oct 27 21:47:31 2026   Attr: printer-location
+Tue Oct 27 21:47:31 2026   Value: 
+Tue Oct 27 21:47:31 2026   Keyword: 
+Tue Oct 27 21:47:31 2026   Attr: printer-geo-location
+Tue Oct 27 21:47:31 2026   Value: unknown
+Tue Oct 27 21:47:31 2026   Attr: printer-info
+Tue Oct 27 21:47:31 2026   Value: Office-Printer
+Tue Oct 27 21:47:31 2026   Keyword: Office-Printer
+Tue Oct 27 21:47:31 2026   Attr: printer-organization
+Tue Oct 27 21:47:31 2026   Value: 
+Tue Oct 27 21:47:31 2026   Keyword: 
+Tue Oct 27 21:47:31 2026   Attr: printer-organizational-unit
+Tue Oct 27 21:47:31 2026   Value: 
+Tue Oct 27 21:47:31 2026   Keyword: 
+Tue Oct 27 21:47:31 2026   Attr: printer-uuid
+Tue Oct 27 21:47:31 2026   Value: urn:uuid:23c5f7e9-29e4-3883-6cf1-021fea9406fd
+Tue Oct 27 21:47:31 2026   Keyword: urn:uuid:23c5f7e9-29e4-3883-6cf1-021fea9406fd
+Tue Oct 27 21:47:31 2026   Attr: job-quota-period
+Tue Oct 27 21:47:31 2026   Value: 0
+Tue Oct 27 21:47:31 2026   Attr: job-k-limit
+Tue Oct 27 21:47:31 2026   Value: 0
+Tue Oct 27 21:47:31 2026   Attr: job-page-limit
+Tue Oct 27 21:47:31 2026   Value: 0
+Tue Oct 27 21:47:31 2026   Attr: job-sheets-default
+Tue Oct 27 21:47:31 2026   Value: none,none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: device-uri
+Tue Oct 27 21:47:31 2026   Value: ipp://localhost:8631/ipp/print
+Tue Oct 27 21:47:31 2026   Keyword: ipp://localhost:8631/ipp/print
+Tue Oct 27 21:47:31 2026   Attr: document-format-supported
+Tue Oct 27 21:47:31 2026   Value: application/octet-stream,application/pdf,application/postscript,application/vnd.adobe-reader-postscript,application/vnd.cups-pdf,application/vnd.cups-pdf-banner,application/vnd.cups-postscript,application/vnd.cups-raster,application/vnd.cups-raw,application/x-cshell,application/x-csource,application/x-perl,application/x-shell,image/gif,image/jpeg,image/png,image/pwg-raster,image/tiff,image/urf,image/x-bitmap,image/x-photocd,image/x-portable-anymap,image/x-portable-bitmap,image/x-portable-graymap,image/x-portable-pixmap,image/x-sgi-rgb,image/x-sun-raster,image/x-xbitmap,image/x-xpixmap,image/x-xwindowdump,text/css,text/html,text/plain
+Tue Oct 27 21:47:31 2026   Keyword: application/octet-stream
+Tue Oct 27 21:47:31 2026   Keyword: application/pdf
+Tue Oct 27 21:47:31 2026   Keyword: application/postscript
+Tue Oct 27 21:47:31 2026   Keyword: application/vnd.adobe-reader-postscript
+Tue Oct 27 21:47:31 2026   Keyword: application/vnd.cups-pdf
+Tue Oct 27 21:47:31 2026   Keyword: application/vnd.cups-pdf-banner
+Tue Oct 27 21:47:31 2026   Keyword: application/vnd.cups-postscript
+Tue Oct 27 21:47:31 2026   Keyword: application/vnd.cups-raster
+Tue Oct 27 21:47:31 2026   Keyword: application/vnd.cups-raw
+Tue Oct 27 21:47:31 2026   Keyword: application/x-cshell
+Tue Oct 27 21:47:31 2026   Keyword: application/x-csource
+Tue Oct 27 21:47:31 2026   Keyword: application/x-perl
+Tue Oct 27 21:47:31 2026   Keyword: application/x-shell
+Tue Oct 27 21:47:31 2026   Keyword: image/gif
+Tue Oct 27 21:47:31 2026   Keyword: image/jpeg
+Tue Oct 27 21:47:31 2026   Keyword: image/png
+Tue Oct 27 21:47:31 2026   Keyword: image/pwg-raster
+Tue Oct 27 21:47:31 2026   Keyword: image/tiff
+Tue Oct 27 21:47:31 2026   Keyword: image/urf
+Tue Oct 27 21:47:31 2026   Keyword: image/x-bitmap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-photocd
+Tue Oct 27 21:47:31 2026   Keyword: image/x-portable-anymap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-portable-bitmap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-portable-graymap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-portable-pixmap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-sgi-rgb
+Tue Oct 27 21:47:31 2026   Keyword: image/x-sun-raster
+Tue Oct 27 21:47:31 2026   Keyword: image/x-xbitmap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-xpixmap
+Tue Oct 27 21:47:31 2026   Keyword: image/x-xwindowdump
+Tue Oct 27 21:47:31 2026   Keyword: text/css
+Tue Oct 27 21:47:31 2026   Keyword: text/html
+Tue Oct 27 21:47:31 2026   Keyword: text/plain
+Tue Oct 27 21:47:31 2026   Attr: document-format-preferred
+Tue Oct 27 21:47:31 2026   Value: application/pdf
+Tue Oct 27 21:47:31 2026   Keyword: application/pdf
+Tue Oct 27 21:47:31 2026   Attr: copies-default
+Tue Oct 27 21:47:31 2026   Value: 1
+Tue Oct 27 21:47:31 2026   Attr: document-format-default
+Tue Oct 27 21:47:31 2026   Value: application/octet-stream
+Tue Oct 27 21:47:31 2026   Keyword: application/octet-stream
+Tue Oct 27 21:47:31 2026   Attr: job-hold-until-default
+Tue Oct 27 21:47:31 2026   Value: no-hold
+Tue Oct 27 21:47:31 2026   Keyword: no-hold
+Tue Oct 27 21:47:31 2026   Attr: job-priority-default
+Tue Oct 27 21:47:31 2026   Value: 50
+Tue Oct 27 21:47:31 2026   Attr: number-up-default
+Tue Oct 27 21:47:31 2026   Value: 1
+Tue Oct 27 21:47:31 2026   Attr: orientation-requested-default
+Tue Oct 27 21:47:31 2026   Value: no-value
+Tue Oct 27 21:47:31 2026   Attr: print-color-mode-default
+Tue Oct 27 21:47:31 2026   Value: monochrome
+Tue Oct 27 21:47:31 2026   Keyword: monochrome
+Tue Oct 27 21:47:31 2026   Attr: print-quality-default
+Tue Oct 27 21:47:31 2026   Value: normal
+Tue Oct 27 21:47:31 2026   Attr: color-supported
+Tue Oct 27 21:47:31 2026   Value: false
+Tue Oct 27 21:47:31 2026   Attr: pages-per-minute
+Tue Oct 27 21:47:31 2026   Value: 1
+Tue Oct 27 21:47:31 2026   Attr: print-quality-supported
+Tue Oct 27 21:47:31 2026   Value: draft,normal,high
+Tue Oct 27 21:47:31 2026   Attr: printer-make-and-model
+Tue Oct 27 21:47:31 2026   Value: Printer - IPP Everywhere
+Tue Oct 27 21:47:31 2026   Keyword: Printer - IPP Everywhere
+Tue Oct 27 21:47:31 2026   Attr: media-default
+Tue Oct 27 21:47:31 2026   Value: na_letter_8.5x11in
+Tue Oct 27 21:47:31 2026   Keyword: na_letter_8.5x11in
+Tue Oct 27 21:47:31 2026   Attr: media-col-default
+Tue Oct 27 21:47:31 2026   Value: {media-size={x-dimension=21590 y-dimension=27940} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635}
+Tue Oct 27 21:47:31 2026   Attr: media-supported
+Tue Oct 27 21:47:31 2026   Value: iso_a4_210x297mm,na_number-10_4.125x9.5in,iso_dl_110x220mm,na_legal_8.5x14in,na_letter_8.5x11in
+Tue Oct 27 21:47:31 2026   Keyword: iso_a4_210x297mm
+Tue Oct 27 21:47:31 2026   Keyword: na_number-10_4.125x9.5in
+Tue Oct 27 21:47:31 2026   Keyword: iso_dl_110x220mm
+Tue Oct 27 21:47:31 2026   Keyword: na_legal_8.5x14in
+Tue Oct 27 21:47:31 2026   Keyword: na_letter_8.5x11in
+Tue Oct 27 21:47:31 2026   Attr: media-size-supported
+Tue Oct 27 21:47:31 2026   Value: {x-dimension=21000 y-dimension=29700},{x-dimension=10477 y-dimension=24130},{x-dimension=11000 y-dimension=22000},{x-dimension=21590 y-dimension=35560},{x-dimension=21590 y-dimension=27940}
+Tue Oct 27 21:47:31 2026   Attr: media-source-supported
+Tue Oct 27 21:47:31 2026   Value: auto,main,manual,by-pass-tray
+Tue Oct 27 21:47:31 2026   Keyword: auto
+Tue Oct 27 21:47:31 2026   Keyword: main
+Tue Oct 27 21:47:31 2026   Keyword: manual
+Tue Oct 27 21:47:31 2026   Keyword: by-pass-tray
+Tue Oct 27 21:47:31 2026   Attr: media-type-supported
+Tue Oct 27 21:47:31 2026   Value: auto,cardstock,envelope,labels,other,stationery,stationery-letterhead,transparency
+Tue Oct 27 21:47:31 2026   Keyword: auto
+Tue Oct 27 21:47:31 2026   Keyword: cardstock
+Tue Oct 27 21:47:31 2026   Keyword: envelope
+Tue Oct 27 21:47:31 2026   Keyword: labels
+Tue Oct 27 21:47:31 2026   Keyword: other
+Tue Oct 27 21:47:31 2026   Keyword: stationery
+Tue Oct 27 21:47:31 2026   Keyword: stationery-letterhead
+Tue Oct 27 21:47:31 2026   Keyword: transparency
+Tue Oct 27 21:47:31 2026   Attr: media-bottom-margin-supported
+Tue Oct 27 21:47:31 2026   Value: 635
+Tue Oct 27 21:47:31 2026   Attr: media-left-margin-supported
+Tue Oct 27 21:47:31 2026   Value: 340,635
+Tue Oct 27 21:47:31 2026   Attr: media-right-margin-supported
+Tue Oct 27 21:47:31 2026   Value: 340,635
+Tue Oct 27 21:47:31 2026   Attr: media-top-margin-supported
+Tue Oct 27 21:47:31 2026   Value: 635
+Tue Oct 27 21:47:31 2026   Attr: media-col-database
+Tue Oct 27 21:47:31 2026   Value: {media-size={x-dimension=21000 y-dimension=29700} media-bottom-margin=635 media-left-margin=340 media-right-margin=340 media-top-margin=635},{media-size={x-dimension=10477 y-dimension=24130} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635},{media-size={x-dimension=11000 y-dimension=22000} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635},{media-size={x-dimension=21590 y-dimension=35560} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635},{media-size={x-dimension=21590 y-dimension=27940} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635}
+Tue Oct 27 21:47:31 2026   Attr: media-ready
+Tue Oct 27 21:47:31 2026   Value: iso_a4_210x297mm,iso_dl_110x220mm
+Tue Oct 27 21:47:31 2026   Keyword: iso_a4_210x297mm
+Tue Oct 27 21:47:31 2026   Keyword: iso_dl_110x220mm
+Tue Oct 27 21:47:31 2026   Attr: media-col-ready
+Tue Oct 27 21:47:31 2026   Value: {media-size={x-dimension=21000 y-dimension=29700} media-bottom-margin=635 media-left-margin=340 media-right-margin=340 media-top-margin=635},{media-size={x-dimension=11000 y-dimension=22000} media-bottom-margin=635 media-left-margin=635 media-right-margin=635 media-top-margin=635}
+Tue Oct 27 21:47:31 2026   Attr: mopria-certified
+Tue Oct 27 21:47:31 2026   Value: 1.3
+Tue Oct 27 21:47:31 2026   Keyword: 1.3
+Tue Oct 27 21:47:31 2026   Attr: output-bin-supported
+Tue Oct 27 21:47:31 2026   Value: face-down
+Tue Oct 27 21:47:31 2026   Keyword: face-down
+Tue Oct 27 21:47:31 2026   Attr: output-bin-default
+Tue Oct 27 21:47:31 2026   Value: face-down
+Tue Oct 27 21:47:31 2026   Keyword: face-down
+Tue Oct 27 21:47:31 2026   Attr: print-color-mode-supported
+Tue Oct 27 21:47:31 2026   Value: monochrome
+Tue Oct 27 21:47:31 2026   Keyword: monochrome
+Tue Oct 27 21:47:31 2026   Attr: pwg-raster-document-type-supported
+Tue Oct 27 21:47:31 2026   Value: black_1,sgray_8
+Tue Oct 27 21:47:31 2026   Keyword: black_1
+Tue Oct 27 21:47:31 2026   Keyword: sgray_8
+Tue Oct 27 21:47:31 2026   Attr: printer-resolution-default
+Tue Oct 27 21:47:31 2026   Value: 600dpi
+Tue Oct 27 21:47:31 2026   Attr: printer-resolution-supported
+Tue Oct 27 21:47:31 2026   Value: 600dpi
+Tue Oct 27 21:47:31 2026   Attr: pwg-raster-document-resolution-supported
+Tue Oct 27 21:47:31 2026   Value: 600dpi
+Tue Oct 27 21:47:31 2026   Attr: sides-supported
+Tue Oct 27 21:47:31 2026   Value: one-sided
+Tue Oct 27 21:47:31 2026   Keyword: one-sided
+Tue Oct 27 21:47:31 2026   Attr: sides-default
+Tue Oct 27 21:47:31 2026   Value: one-sided
+Tue Oct 27 21:47:31 2026   Keyword: one-sided
+Tue Oct 27 21:47:31 2026   Attr: urf-supported
+Tue Oct 27 21:47:31 2026   Value: V1.4,CP1,W8,PQ3-4-5,RS600,FN3
+Tue Oct 27 21:47:31 2026   Keyword: V1.4
+Tue Oct 27 21:47:31 2026   Keyword: CP1
+Tue Oct 27 21:47:31 2026   Keyword: W8
+Tue Oct 27 21:47:31 2026   Keyword: PQ3-4-5
+Tue Oct 27 21:47:31 2026   Keyword: RS600
+Tue Oct 27 21:47:31 2026   Keyword: FN3
+Tue Oct 27 21:47:31 2026   Attr: finishings-col-database
+Tue Oct 27 21:47:31 2026   Value: {finishing-template=none}
+Tue Oct 27 21:47:31 2026   Attr: printer-commands
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: port-monitor
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: port-monitor-supported
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: finishings-supported
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Attr: finishings-default
+Tue Oct 27 21:47:31 2026   Value: none
+Tue Oct 27 21:47:31 2026   Attr: charset-configured
+Tue Oct 27 21:47:31 2026   Value: utf-8
+Tue Oct 27 21:47:31 2026   Keyword: utf-8
+Tue Oct 27 21:47:31 2026   Attr: charset-supported
+Tue Oct 27 21:47:31 2026   Value: us-ascii,utf-8
+Tue Oct 27 21:47:31 2026   Keyword: us-ascii
+Tue Oct 27 21:47:31 2026   Keyword: utf-8
+Tue Oct 27 21:47:31 2026   Attr: compression-supported
+Tue Oct 27 21:47:31 2026   Value: none,gzip
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Keyword: gzip
+Tue Oct 27 21:47:31 2026   Attr: copies-supported
+Tue Oct 27 21:47:31 2026   Value: 1-9999
+Tue Oct 27 21:47:31 2026   Attr: generated-natural-language-supported
+Tue Oct 27 21:47:31 2026   Value: en-us
+Tue Oct 27 21:47:31 2026   Keyword: en-us
+Tue Oct 27 21:47:31 2026   Attr: ipp-features-supported
+Tue Oct 27 21:47:31 2026   Value: subscription-object
+Tue Oct 27 21:47:31 2026   Keyword: subscription-object
+Tue Oct 27 21:47:31 2026   Attr: ipp-versions-supported
+Tue Oct 27 21:47:31 2026   Value: 1.0,1.1,2.0,2.1
+Tue Oct 27 21:47:31 2026   Keyword: 1.0
+Tue Oct 27 21:47:31 2026   Keyword: 1.1
+Tue Oct 27 21:47:31 2026   Keyword: 2.0
+Tue Oct 27 21:47:31 2026   Keyword: 2.1
+Tue Oct 27 21:47:31 2026   Attr: ippget-event-life
+Tue Oct 27 21:47:31 2026   Value: 15
+Tue Oct 27 21:47:31 2026   Attr: job-creation-attributes-supported
+Tue Oct 27 21:47:31 2026   Value: copies,finishings,finishings-col,ipp-attribute-fidelity,job-hold-until,job-name,job-priority,job-sheets,media,media-col,multiple-document-handling,number-up,number-up-layout,orientation-requested,output-bin,page-delivery,page-ranges,print-color-mode,print-quality,print-scaling,printer-resolution,sides
+Tue Oct 27 21:47:31 2026   Keyword: copies
+Tue Oct 27 21:47:31 2026   Keyword: finishings
+Tue Oct 27 21:47:31 2026   Keyword: finishings-col
+Tue Oct 27 21:47:31 2026   Keyword: ipp-attribute-fidelity
+Tue Oct 27 21:47:31 2026   Keyword: job-hold-until
+Tue Oct 27 21:47:31 2026   Keyword: job-name
+Tue Oct 27 21:47:31 2026   Keyword: job-priority
+Tue Oct 27 21:47:31 2026   Keyword: job-sheets
+Tue Oct 27 21:47:31 2026   Keyword: media
+Tue Oct 27 21:47:31 2026   Keyword: media-col
+Tue Oct 27 21:47:31 2026   Keyword: multiple-document-handling
+Tue Oct 27 21:47:31 2026   Keyword: number-up
+Tue Oct 27 21:47:31 2026   Keyword: number-up-layout
+Tue Oct 27 21:47:31 2026   Keyword: orientation-requested
+Tue Oct 27 21:47:31 2026   Keyword: output-bin
+Tue Oct 27 21:47:31 2026   Keyword: page-delivery
+Tue Oct 27 21:47:31 2026   Keyword: page-ranges
+Tue Oct 27 21:47:31 2026   Keyword: print-color-mode
+Tue Oct 27 21:47:31 2026   Keyword: print-quality
+Tue Oct 27 21:47:31 2026   Keyword: print-scaling
+Tue Oct 27 21:47:31 2026   Keyword: printer-resolution
+Tue Oct 27 21:47:31 2026   Keyword: sides
+Tue Oct 27 21:47:31 2026   Attr: job-hold-until-supported
+Tue Oct 27 21:47:31 2026   Value: no-hold,indefinite,day-time,evening,night,second-shift,third-shift,weekend
+Tue Oct 27 21:47:31 2026   Keyword: no-hold
+Tue Oct 27 21:47:31 2026   Keyword: indefinite
+Tue Oct 27 21:47:31 2026   Keyword: day-time
+Tue Oct 27 21:47:31 2026   Keyword: evening
+Tue Oct 27 21:47:31 2026   Keyword: night
+Tue Oct 27 21:47:31 2026   Keyword: second-shift
+Tue Oct 27 21:47:31 2026   Keyword: third-shift
+Tue Oct 27 21:47:31 2026   Keyword: weekend
+Tue Oct 27 21:47:31 2026   Attr: job-ids-supported
+Tue Oct 27 21:47:31 2026   Value: true
+Tue Oct 27 21:47:31 2026   Attr: job-k-octets-supported
+Tue Oct 27 21:47:31 2026   Value: 0-82083148
+Tue Oct 27 21:47:31 2026   Attr: job-priority-supported
+Tue Oct 27 21:47:31 2026   Value: 100
+Tue Oct 27 21:47:31 2026   Attr: job-settable-attributes-supported
+Tue Oct 27 21:47:31 2026   Value: copies,finishings,job-hold-until,job-name,job-priority,media,media-col,multiple-document-handling,number-up,output-bin,orientation-requested,page-ranges,print-color-mode,print-quality,printer-resolution,sides
+Tue Oct 27 21:47:31 2026   Keyword: copies
+Tue Oct 27 21:47:31 2026   Keyword: finishings
+Tue Oct 27 21:47:31 2026   Keyword: job-hold-until
+Tue Oct 27 21:47:31 2026   Keyword: job-name
+Tue Oct 27 21:47:31 2026   Keyword: job-priority
+Tue Oct 27 21:47:31 2026   Keyword: media
+Tue Oct 27 21:47:31 2026   Keyword: media-col
+Tue Oct 27 21:47:31 2026   Keyword: multiple-document-handling
+Tue Oct 27 21:47:31 2026   Keyword: number-up
+Tue Oct 27 21:47:31 2026   Keyword: output-bin
+Tue Oct 27 21:47:31 2026   Keyword: orientation-requested
+Tue Oct 27 21:47:31 2026   Keyword: page-ranges
+Tue Oct 27 21:47:31 2026   Keyword: print-color-mode
+Tue Oct 27 21:47:31 2026   Keyword: print-quality
+Tue Oct 27 21:47:31 2026   Keyword: printer-resolution
+Tue Oct 27 21:47:31 2026   Keyword: sides
+Tue Oct 27 21:47:31 2026   Attr: job-sheets-supported
+Tue Oct 27 21:47:31 2026   Value: none,classified,confidential,form,secret,standard,topsecret,unclassified
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Keyword: classified
+Tue Oct 27 21:47:31 2026   Keyword: confidential
+Tue Oct 27 21:47:31 2026   Keyword: form
+Tue Oct 27 21:47:31 2026   Keyword: secret
+Tue Oct 27 21:47:31 2026   Keyword: standard
+Tue Oct 27 21:47:31 2026   Keyword: topsecret
+Tue Oct 27 21:47:31 2026   Keyword: unclassified
+Tue Oct 27 21:47:31 2026   Attr: jpeg-k-octets-supported
+Tue Oct 27 21:47:31 2026   Value: 0-82083148
+Tue Oct 27 21:47:31 2026   Attr: jpeg-x-dimension-supported
+Tue Oct 27 21:47:31 2026   Value: 0-65535
+Tue Oct 27 21:47:31 2026   Attr: jpeg-y-dimension-supported
+Tue Oct 27 21:47:31 2026   Value: 1-65535
+Tue Oct 27 21:47:31 2026   Attr: media-col-supported
+Tue Oct 27 21:47:31 2026   Value: media-bottom-margin,media-left-margin,media-right-margin,media-size,media-source,media-top-margin,media-type
+Tue Oct 27 21:47:31 2026   Keyword: media-bottom-margin
+Tue Oct 27 21:47:31 2026   Keyword: media-left-margin
+Tue Oct 27 21:47:31 2026   Keyword: media-right-margin
+Tue Oct 27 21:47:31 2026   Keyword: media-size
+Tue Oct 27 21:47:31 2026   Keyword: media-source
+Tue Oct 27 21:47:31 2026   Keyword: media-top-margin
+Tue Oct 27 21:47:31 2026   Keyword: media-type
+Tue Oct 27 21:47:31 2026   Attr: multiple-document-handling-supported
+Tue Oct 27 21:47:31 2026   Value: separate-documents-uncollated-copies,separate-documents-collated-copies
+Tue Oct 27 21:47:31 2026   Keyword: separate-documents-uncollated-copies
+Tue Oct 27 21:47:31 2026   Keyword: separate-documents-collated-copies
+Tue Oct 27 21:47:31 2026   Attr: multiple-document-jobs-supported
+Tue Oct 27 21:47:31 2026   Value: true
+Tue Oct 27 21:47:31 2026   Attr: multiple-operation-time-out
+Tue Oct 27 21:47:31 2026   Value: 900
+Tue Oct 27 21:47:31 2026   Attr: multiple-operation-time-out-action
+Tue Oct 27 21:47:31 2026   Value: process-job
+Tue Oct 27 21:47:31 2026   Keyword: process-job
+Tue Oct 27 21:47:31 2026   Attr: natural-language-configured
+Tue Oct 27 21:47:31 2026   Value: en-us
+Tue Oct 27 21:47:31 2026   Keyword: en-us
+Tue Oct 27 21:47:31 2026   Attr: number-up-supported
+Tue Oct 27 21:47:31 2026   Value: 1,2,4,6,9,16
+Tue Oct 27 21:47:31 2026   Attr: operations-supported
+Tue Oct 27 21:47:31 2026   Value: Print-Job,Validate-Job,Create-Job,Send-Document,Cancel-Job,Get-Job-Attributes,Get-Jobs,Get-Printer-Attributes,Hold-Job,Release-Job,Pause-Printer,Resume-Printer,Purge-Jobs,Set-Printer-Attributes,Set-Job-Attributes,Get-Printer-Supported-Values,Create-Printer-Subscriptions,Create-Job-Subscriptions,Get-Subscription-Attributes,Get-Subscriptions,Renew-Subscription,Cancel-Subscription,Get-Notifications,Enable-Printer,Disable-Printer,Hold-New-Jobs,Release-Held-New-Jobs,Cancel-Jobs,Cancel-My-Jobs,Close-Job,CUPS-Get-Default,CUPS-Get-Printers,CUPS-Add-Modify-Printer,CUPS-Delete-Printer,CUPS-Get-Classes,CUPS-Add-Modify-Class,CUPS-Delete-Class,CUPS-Accept-Jobs,CUPS-Reject-Jobs,CUPS-Set-Default,CUPS-Get-Devices,CUPS-Get-PPDs,CUPS-Move-Job,CUPS-Authenticate-Job,CUPS-Get-PPD,CUPS-Get-Document,Restart-Job
+Tue Oct 27 21:47:31 2026   Attr: orientation-requested-supported
+Tue Oct 27 21:47:31 2026   Value: portrait,landscape,reverse-landscape,reverse-portrait
+Tue Oct 27 21:47:31 2026   Attr: page-delivery-supported
+Tue Oct 27 21:47:31 2026   Value: reverse-order,same-order
+Tue Oct 27 21:47:31 2026   Keyword: reverse-order
+Tue Oct 27 21:47:31 2026   Keyword: same-order
+Tue Oct 27 21:47:31 2026   Attr: page-ranges-supported
+Tue Oct 27 21:47:31 2026   Value: true
+Tue Oct 27 21:47:31 2026   Attr: pdf-k-octets-supported
+Tue Oct 27 21:47:31 2026   Value: 0-82083148
+Tue Oct 27 21:47:31 2026   Attr: pdf-versions-supported
+Tue Oct 27 21:47:31 2026   Value: adobe-1.2,adobe-1.3,adobe-1.4,adobe-1.5,adobe-1.6,adobe-1.7,iso-19005-1_2005,iso-32000-1_2008,pwg-5102.3
+Tue Oct 27 21:47:31 2026   Keyword: adobe-1.2
+Tue Oct 27 21:47:31 2026   Keyword: adobe-1.3
+Tue Oct 27 21:47:31 2026   Keyword: adobe-1.4
+Tue Oct 27 21:47:31 2026   Keyword: adobe-1.5
+Tue Oct 27 21:47:31 2026   Keyword: adobe-1.6
+Tue Oct 27 21:47:31 2026   Keyword: adobe-1.7
+Tue Oct 27 21:47:31 2026   Keyword: iso-19005-1_2005
+Tue Oct 27 21:47:31 2026   Keyword: iso-32000-1_2008
+Tue Oct 27 21:47:31 2026   Keyword: pwg-5102.3
+Tue Oct 27 21:47:31 2026   Attr: pdl-override-supported
+Tue Oct 27 21:47:31 2026   Value: attempted
+Tue Oct 27 21:47:31 2026   Keyword: attempted
+Tue Oct 27 21:47:31 2026   Attr: print-scaling-supported
+Tue Oct 27 21:47:31 2026   Value: auto,auto-fit,fill,fit,none
+Tue Oct 27 21:47:31 2026   Keyword: auto
+Tue Oct 27 21:47:31 2026   Keyword: auto-fit
+Tue Oct 27 21:47:31 2026   Keyword: fill
+Tue Oct 27 21:47:31 2026   Keyword: fit
+Tue Oct 27 21:47:31 2026   Keyword: none
+Tue Oct 27 21:47:31 2026   Attr: printer-get-attributes-supported
+Tue Oct 27 21:47:31 2026   Value: document-format
+Tue Oct 27 21:47:31 2026   Keyword: document-format
+Tue Oct 27 21:47:31 2026   Attr: printer-settable-attributes-supported
+Tue Oct 27 21:47:31 2026   Value: printer-geo-location,printer-info,printer-location,printer-organization,printer-organizational-unit
+Tue Oct 27 21:47:31 2026   Keyword: printer-geo-location
+Tue Oct 27 21:47:31 2026   Keyword: printer-info
+Tue Oct 27 21:47:31 2026   Keyword: printer-location
+Tue Oct 27 21:47:31 2026   Keyword: printer-organization
+Tue Oct 27 21:47:31 2026   Keyword: printer-organizational-unit
+Tue Oct 27 21:47:31 2026   Attr: which-jobs-supported
+Tue Oct 27 21:47:31 2026   Value: completed,not-completed,aborted,all,canceled,pending,pending-held,processing,processing-stopped
+Tue Oct 27 21:47:31 2026   Keyword: completed
+Tue Oct 27 21:47:31 2026   Keyword: not-completed
+Tue Oct 27 21:47:31 2026   Keyword: aborted
+Tue Oct 27 21:47:31 2026   Keyword: all
+Tue Oct 27 21:47:31 2026   Keyword: canceled
+Tue Oct 27 21:47:31 2026   Keyword: pending
+Tue Oct 27 21:47:31 2026   Keyword: pending-held
+Tue Oct 27 21:47:31 2026   Keyword: processing
+Tue Oct 27 21:47:31 2026   Keyword: processing-stopped
+Tue Oct 27 21:47:31 2026 
+Tue Oct 27 21:47:31 2026 140527614371520 PPD generation successful: PDF PPD generated.
+Tue Oct 27 21:47:31 2026 140527614371520 Created temporary PPD file: /tmp/000016ae6b6ea
+Tue Oct 27 21:47:31 2026 140527614371520 Using PPD /tmp/000016ae6b6ea for queue HP_LaserJet_172_20_0_20.
+Tue Oct 27 21:47:31 2026 140527614371520 Editing PPD file /tmp/000016ae6b6ea for printer HP_LaserJet_172_20_0_20, setting the option defaults of the previous cups-browsed session and doing client-side filtering of the job, saving the resulting PPD in /tmp/000016ae6e763.
+Tue Oct 27 21:47:31 2026 140527614371520 Non-raw queue HP_LaserJet_172_20_0_20 with PPD file: /tmp/000016ae6e763
+Tue Oct 27 21:47:31 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:31 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Now accepting jobs.
+Tue Oct 27 21:47:31 2026 140527631184832 [CUPS Notification] Printer state reasons: paused
+Tue Oct 27 21:47:31 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:31 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed to idle.
+Tue Oct 27 21:47:31 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:31 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:31 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:31 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:31 2026 140527614371520 Print queue update 1 of this series: HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:31 2026 140527614371520 Unsetting printer-is-shared bit.
+Tue Oct 27 21:47:31 2026 140527614371520 Failed reading file /var/cache/cups/cups-browsed-remote-default-printer
+Tue Oct 27 21:47:31 2026 140527614371520 starting BrowseTimeout timer for HP_LaserJet_172_20_0_20 (300s)
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed to processing.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_job_state() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Job state changed on printer HP_LaserJet_172_20_0_20: Job #1 started.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Job ID: 1
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Job State: job-printing
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Job is processing: Yes
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] HP_LaserJet_172_20_0_20 starts processing a job.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] HP_LaserJet_172_20_0_20 is using the "implicitclass" CUPS backend, so let us search for a destination for this job.
+Tue Oct 27 21:47:41 2026 140527631184832 Remote CUPS printers clustered as queue HP_LaserJet_172_20_0_20:
+Tue Oct 27 21:47:41 2026 140527631184832   ipp://172.20.0.20:631/printers/Office-Printer* (last job printed)
+Tue Oct 27 21:47:41 2026 140527631184832 Checking state of remote printer ipp://172.20.0.20:631/printers/Office-Printer on host 172.20.0.20, IP (null), port 631.
+Tue Oct 27 21:47:41 2026 140527631184832 HTTP connection to 172.20.0.20:631 established.
+Tue Oct 27 21:47:41 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:41 2026 
+Tue Oct 27 21:47:41 2026 140527631184832 IPP request to 172.20.0.20:631 successful.
+Tue Oct 27 21:47:41 2026 140527631184832 IPP Response contains attributes values printer-name Office-Printer, accepting-job 1
+Tue Oct 27 21:47:41 2026 140527631184832 Printer ipp://172.20.0.20:631/printers/Office-Printer on host 172.20.0.20, port 631 is accepting jobs.
+Tue Oct 27 21:47:41 2026 140527631184832 Printer ipp://172.20.0.20:631/printers/Office-Printer on host 172.20.0.20, port 631 is idle, take this as destination and stop searching.
+Tue Oct 27 21:47:41 2026 140527631184832 600 600
+Tue Oct 27 21:47:41 2026 140527631184832 Destination for job 1 to HP_LaserJet_172_20_0_20: ipp://172.20.0.20:631/printers/Office-Printer
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_modified() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer modified: Printer "HP_LaserJet_172_20_0_20" modified by "root".
+Tue Oct 27 21:47:41 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026 Full list of all IPP attributes:
+Tue Oct 27 21:47:41 2026   Attr: attributes-charset
+Tue Oct 27 21:47:41 2026   Value: utf-8
+Tue Oct 27 21:47:41 2026   Keyword: utf-8
+Tue Oct 27 21:47:41 2026   Attr: attributes-natural-language
+Tue Oct 27 21:47:41 2026   Value: en-us
+Tue Oct 27 21:47:41 2026   Keyword: en-us
+Tue Oct 27 21:47:41 2026   Attr: printer-uri-supported
+Tue Oct 27 21:47:41 2026   Value: ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Keyword: ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Attr: printer-name
+Tue Oct 27 21:47:41 2026   Value: HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Keyword: HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Attr: device-uri
+Tue Oct 27 21:47:41 2026   Value: implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 21:47:41 2026   Keyword: implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 21:47:41 2026   Attr: printer-make-and-model
+Tue Oct 27 21:47:41 2026   Value: Printer - IPP Everywhere, driverless, 2.1b1
+Tue Oct 27 21:47:41 2026   Keyword: Printer - IPP Everywhere, driverless, 2.1b1
+Tue Oct 27 21:47:41 2026 
+Tue Oct 27 21:47:41 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026 Full list of all IPP attributes:
+Tue Oct 27 21:47:41 2026   Attr: attributes-charset
+Tue Oct 27 21:47:41 2026   Value: utf-8
+Tue Oct 27 21:47:41 2026   Keyword: utf-8
+Tue Oct 27 21:47:41 2026   Attr: attributes-natural-language
+Tue Oct 27 21:47:41 2026   Value: en-us
+Tue Oct 27 21:47:41 2026   Keyword: en-us
+Tue Oct 27 21:47:41 2026   Attr: printer-uri-supported
+Tue Oct 27 21:47:41 2026   Value: ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Keyword: ipp://localhost/printers/HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Attr: printer-name
+Tue Oct 27 21:47:41 2026   Value: HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Keyword: HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026   Attr: device-uri
+Tue Oct 27 21:47:41 2026   Value: implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 21:47:41 2026   Keyword: implicitclass://HP_LaserJet_172_20_0_20/
+Tue Oct 27 21:47:41 2026   Attr: printer-make-and-model
+Tue Oct 27 21:47:41 2026   Value: Printer - IPP Everywhere, driverless, 2.1b1
+Tue Oct 27 21:47:41 2026   Keyword: Printer - IPP Everywhere, driverless, 2.1b1
+Tue Oct 27 21:47:41 2026 
+Tue Oct 27 21:47:41 2026 140527631184832 Settings of printer HP_LaserJet_172_20_0_20 got modified, doing backup.
+Tue Oct 27 21:47:41 2026 140527631184832 Recording printer options for HP_LaserJet_172_20_0_20 to /var/cache/cups/cups-browsed-options-HP_LaserJet_172_20_0_20
+Tue Oct 27 21:47:41 2026 140527631184832 Recording option settings of the PPD file for HP_LaserJet_172_20_0_20 (Printer - IPP Everywhere, driverless, 2.1b1):
+Tue Oct 27 21:47:41 2026 140527631184832    ColorModel=Gray
+Tue Oct 27 21:47:41 2026 140527631184832    cupsFinishingTemplate=None
+Tue Oct 27 21:47:41 2026 140527631184832    cupsPrintQuality=Normal
+Tue Oct 27 21:47:41 2026 140527631184832    InputSlot=Auto
+Tue Oct 27 21:47:41 2026 140527631184832    MediaType=Unknown
+Tue Oct 27 21:47:41 2026 140527631184832    OutputBin=FaceDown
+Tue Oct 27 21:47:41 2026 140527631184832    PageSize=Letter
+Tue Oct 27 21:47:41 2026 140527631184832    print-scaling=auto
+Tue Oct 27 21:47:41 2026 140527631184832 Recording option settings from the IPP attributes for HP_LaserJet_172_20_0_20:
+Tue Oct 27 21:47:41 2026 140527631184832    printer-error-policy=stop-printer
+Tue Oct 27 21:47:41 2026 140527631184832    printer-is-accepting-jobs=true
+Tue Oct 27 21:47:41 2026 140527631184832    printer-is-shared=false
+Tue Oct 27 21:47:41 2026 140527631184832    printer-op-policy=default
+Tue Oct 27 21:47:41 2026 140527631184832    printer-state-reasons=none
+Tue Oct 27 21:47:41 2026 140527631184832    printer-location=Office 2nd floor
+Tue Oct 27 21:47:41 2026 140527631184832    printer-geo-location=unknown
+Tue Oct 27 21:47:41 2026 140527631184832    printer-info=HP LaserJet
+Tue Oct 27 21:47:41 2026 140527631184832    job-quota-period=0
+Tue Oct 27 21:47:41 2026 140527631184832    job-k-limit=0
+Tue Oct 27 21:47:41 2026 140527631184832    job-page-limit=0
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: none
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed
+Tue Oct 27 21:47:41 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:41 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-processing
+Tue Oct 27 21:47:42 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:47:42 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:47:42 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-processing
+Tue Oct 27 21:48:02 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-processing
+Tue Oct 27 21:48:02 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-completed
+Tue Oct 27 21:48:02 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-completed
+Tue Oct 27 21:48:02 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-completed
+Tue Oct 27 21:48:02 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed.
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state reasons: cups-waiting-for-job-completed,cups-remote-completed
+Tue Oct 27 21:48:02 2026 140527631184832 on_printer_state_changed() in THREAD 140527631184832
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state change on printer HP_LaserJet_172_20_0_20: Printer "HP_LaserJet_172_20_0_20" state changed to idle.
+Tue Oct 27 21:48:02 2026 140527631184832 [CUPS Notification] Printer state reasons: none
